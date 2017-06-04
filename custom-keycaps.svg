@@ -1,0 +1,961 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+     x="0px" y="0px"
+	   viewBox="0 0 1281.3 478.6"
+     style="enable-background: new 0 0 1281.3 478.6;"
+     xml:space="preserve">
+  <style type="text/css">
+  	.st0{fill:url(#path12_1_);}
+  	.st1{fill:#878787;}
+  	.st2{fill:#444444;}
+  	.st3{fill:#ED0606;}
+  	.st14{fill:none;stroke:#000000;stroke-width:0.25;stroke-miterlimit:10;}
+  	.st15{fill:none;stroke:#000000;stroke-width:0.2527;stroke-miterlimit:10;}
+  	.st16{fill:none;stroke:#000000;stroke-width:0.2544;stroke-miterlimit:10;}
+  	.st17{fill:none;stroke:#000000;stroke-width:0.2509;stroke-miterlimit:10;}
+  	.st18{fill:none;stroke:#000000;stroke-width:0.2536;stroke-miterlimit:10;}
+  	.st19{fill:none;stroke:#000000;stroke-width:0.249;stroke-miterlimit:10;}
+  	.st20{fill:none;stroke:#000000;stroke-width:0.2518;stroke-miterlimit:10;}
+  	.st21{fill:none;stroke:#000000;stroke-width:0.2484;stroke-miterlimit:10;}
+  	.st22{fill:none;stroke:#000000;stroke-width:0.2522;stroke-miterlimit:10;}
+  	.st23{fill:none;stroke:#000000;stroke-width:0.2504;stroke-miterlimit:10;}
+  	.st26{fill:none;stroke:#000000;stroke-width:0.2198;stroke-linecap:round;stroke-linejoin:round;}
+  	.st27{fill:none;stroke:#000000;stroke-width:0.2552;stroke-linecap:round;stroke-linejoin:round;}
+  	.st28{fill:#FC0000;}
+  	.st29{fill:none;stroke:#000000;stroke-width:0.2252;stroke-miterlimit:10;}
+  	.st30{fill:none;stroke:#000000;stroke-width:7.508665e-02;stroke-miterlimit:2;}
+  	.st31{display:none;}
+  	.st32{display:inline;}
+  	.st33{fill:none;}
+    .letter {
+      font-family: 'VAGRounded-Thin'; font-size: 18px;
+      transform: translate(0px, 29.5px);
+    }
+    .arrow {
+      font-family: 'VAGRounded-Thin'; font-size: 16px;
+      transform: translate(12.625px, 20.5px); text-anchor: middle;
+    }
+
+    .functionLeft, .functionLeftAbove, .functionRight1_25, .functionRight2_0, .functionRight2_25, .functionRight2_75 {
+      font-family: 'VAGRounded-Thin'; font-size: 9px;
+    }
+    .functionLeft {
+      transform: translate(0px, 29.5px);
+    }
+    .functionLeftAbove {
+      transform: translate(0px, 19.5px);
+    }
+    .functionRight1_25 {
+      transform: translate(41.2px, 29.5px); text-anchor: end;
+    }
+    .functionRight2_0 {
+      transform: translate(81.4px, 29.5px); text-anchor: end;
+    }
+    .functionRight2_25 {
+      transform: translate(93.6px, 29.5px); text-anchor: end;
+    }
+    .functionRight2_75 {
+      transform: translate(121.2px, 29.5px); text-anchor: end;
+    }
+
+  	.altFunctionLeft, .altFunctionRight1_25, .altFunctionRight2_25 {
+      font-family: 'VAGRounded-Thin'; font-size: 8px;
+    }
+    .altFunctionLeft {
+      transform: translate(0px, 9px);
+    }
+    .altFunctionRight1_25 {
+      transform: translate(41.2px, 9px); text-anchor: end;
+    }
+    .altFunctionRight2_25 {
+      transform: translate(93.6px, 9px); text-anchor: end;
+    }
+
+    .specialKey {
+      font-family: 'Helvetica'; font-size: 9px;
+      transform: translate(41.2px, 29.5px); text-anchor: end;
+    }
+
+    .fn {
+      font-family: 'VAGRounded-Thin'; font-size: 8px;
+      transform: translate(12.75px, 29.5px); text-anchor: middle;
+    }
+    .commandSymbol {
+      font-family: 'Helvetica'; font-size: 14px;
+      transform: translate(-1.5px, 10.5px);
+    }
+    .commandSymbolRight {
+      font-family: 'Helvetica'; font-size: 14px;
+      transform: translate(43.0px, 10.5px); text-anchor: end;
+    }
+    .shift {
+      font-family: 'VAGRounded-Thin'; font-size: 13px;
+      transform: translate(0px, 10px);
+    }
+    .shiftable {
+      font-family: 'VAGRounded-Thin'; font-size: 13px;
+      transform: translate(0px, 29.5px);
+    }
+    .alt {
+      font-family: 'Helvetica'; font-size: 7pt; font-style: italic;
+      fill: red;
+      text-anchor: middle; transform: translate(21px, 19px);
+    }
+    .altshift {
+      font-family: 'Helvetica'; font-size: 7pt; font-style: italic;
+      fill: red;
+      text-anchor: middle; transform: translate(21px, 9px);
+    }
+    .alt1_5 {
+      font-family: 'Helvetica'; font-size: 7pt; font-style: italic;
+      fill: red;
+      text-anchor: middle; transform: translate(48px, 19px);
+    }
+    .altshift1_5 {
+      font-family: 'Helvetica'; font-size: 7pt; font-style: italic;
+      fill: red;
+      text-anchor: middle; transform: translate(48px, 9px);
+    }
+  </style>
+  <defs>
+    <path id="grid" vector-effect="non-scaling-stroke" d="
+      M0,0 v1 M0.125,0 v1 M0.25,0 v1 M0.375,0 v1 M0.5,0 v1 M0.625,0 v1 M0.75,0 v1 M0.875,0 v1 M1,0 v1
+      M0,0 h1 M0,0.125 h1 M0,0.25 h1 M0,0.375 h1 M0,0.5 h1 M0,0.625 h1 M0,0.75 h1 M0,0.875 h1 M0,1 h1
+      "/>
+  </defs>
+
+  <g id="svg2">	
+  	<g id="layer1" inkscape:groupmode="layer" inkscape:label="Key Borders">
+  		<g id="_x31_04_6.25x_KEY_TOP__x28_DO_NOT_DELETE_x29_">
+  			<path id="path2388" class="st14" d="M102.6,195.7c0,2.7,1.9,4.9,4.3,4.9h25.5 c2.4,0,4.3-2.2,4.3-4.9v-29.8c0-2.7-1.9-4.9-4.3-4.9h-25.5c-2.3,0-4.3,2.2-4.3,4.9C102.6,165.9,102.6,195.7,102.6,195.7z"/>
+  			<path id="path2390" class="st14" d="M154.2,195.7c0,2.7,1.9,4.9,4.3,4.9H184 c2.4,0,4.3-2.2,4.3-4.9v-29.8c0-2.7-1.9-4.9-4.3-4.9h-25.5c-2.4,0-4.3,2.2-4.3,4.9V195.7z"/>
+  			<path id="path2392" class="st14" d="M205.7,195.7c0,2.7,1.9,4.9,4.3,4.9h25.5 c2.4,0,4.3-2.2,4.3-4.9v-29.8c0-2.7-1.9-4.9-4.3-4.9H210c-2.4,0-4.3,2.2-4.3,4.9V195.7z"/>
+  			<path id="path2394" class="st14" d="M256.3,195.7c0,2.7,1.9,4.9,4.3,4.9h25.5 c2.4,0,4.3-2.2,4.3-4.9v-29.8c0-2.7-1.9-4.9-4.3-4.9h-25.5c-2.4,0-4.3,2.2-4.3,4.9V195.7z"/>
+  			<path id="path2396" class="st14" d="M307.4,195.7c0,2.7,1.9,4.9,4.3,4.9h25.5 c2.4,0,4.3-2.2,4.3-4.9v-29.8c0-2.7-1.9-4.9-4.3-4.9h-25.5c-2.4,0-4.3,2.2-4.3,4.9V195.7z"/>
+  			<path id="path2398" class="st14" d="M358.4,195.7c0,2.7,1.9,4.9,4.3,4.9h25.5 c2.4,0,4.3-2.2,4.3-4.9v-29.8c0-2.7-1.9-4.9-4.3-4.9h-25.5c-2.4,0-4.3,2.2-4.3,4.9V195.7z"/>
+  			<path id="path2400" class="st14" d="M409.3,195.7c0,2.7,1.9,4.9,4.3,4.9h25.5 c2.4,0,4.3-2.2,4.3-4.9v-29.8c0-2.7-1.9-4.9-4.3-4.9h-25.5c-2.4,0-4.3,2.2-4.3,4.9V195.7z"/>
+  			<path id="path2402" class="st14" d="M489,195.7c0,2.7,1.9,4.9,4.3,4.9h25.5 c2.3,0,4.3-2.2,4.3-4.9v-29.8c0-2.7-1.9-4.9-4.3-4.9h-25.5c-2.4,0-4.3,2.2-4.3,4.9V195.7z"/>
+  			<path id="path2404" class="st14" d="M539.8,195.7c0,2.7,1.9,4.9,4.3,4.9h25.5 c2.3,0,4.3-2.2,4.3-4.9v-29.8c0-2.7-1.9-4.9-4.3-4.9h-25.5c-2.3,0-4.3,2.2-4.3,4.9V195.7z"/>
+  			<path id="path2406" class="st14" d="M590.1,195.7c0,2.7,1.9,4.9,4.3,4.9h25.5 c2.3,0,4.3-2.2,4.3-4.9v-29.8c0-2.7-1.9-4.9-4.3-4.9h-25.5c-2.3,0-4.3,2.2-4.3,4.9V195.7z"/>
+  			<path id="path2408" class="st14" d="M640.4,195.7c0,2.7,1.9,4.9,4.3,4.9h25.5 c2.3,0,4.3-2.2,4.3-4.9v-29.8c0-2.7-1.9-4.9-4.3-4.9h-25.5c-2.3,0-4.3,2.2-4.3,4.9V195.7z"/>
+  			<path id="path2410" class="st14" d="M862.1,196.8c0,2.7,1.9,4.9,4.3,4.9h25.5 c2.3,0,4.3-2.2,4.3-4.9v-29.8c0-2.7-1.9-4.9-4.3-4.9h-25.5c-2.3,0-4.3,2.2-4.3,4.9V196.8z"/>
+  			<path id="path2412" class="st14" d="M913.2,196.8c0,2.7,1.9,4.9,4.3,4.9h25.5 c2.3,0,4.3-2.2,4.3-4.9v-29.8c0-2.7-1.9-4.9-4.3-4.9h-25.5c-2.3,0-4.3,2.2-4.3,4.9V196.8z"/>
+  			<path id="path2414" class="st14" d="M965.1,196.8c0,2.7,1.9,4.9,4.3,4.9h25.5 c2.3,0,4.3-2.2,4.3-4.9v-29.8c0-2.7-1.9-4.9-4.3-4.9h-25.5c-2.3,0-4.3,2.2-4.3,4.9V196.8z"/>
+  			<path id="path2416" class="st14" d="M1053.2,197c0,2.7,1.9,4.9,4.3,4.9h25.5 c2.3,0,4.3-2.2,4.3-4.9v-29.8c0-2.7-1.9-4.9-4.3-4.9h-25.5c-2.3,0-4.3,2.2-4.3,4.9V197z"/>
+  			<path id="path2418" class="st14" d="M1103.6,197c0,2.7,1.9,4.9,4.3,4.9h25.5 c2.3,0,4.3-2.2,4.3-4.9v-29.8c0-2.7-1.9-4.9-4.3-4.9h-25.5c-2.3,0-4.3,2.2-4.3,4.9V197z"/>
+  			<path id="path2420" class="st14" d="M1154.9,197c0,2.7,1.9,4.9,4.3,4.9h25.5 c2.3,0,4.3-2.2,4.3-4.9v-29.8c0-2.7-1.9-4.9-4.3-4.9h-25.5c-2.3,0-4.3,2.2-4.3,4.9V197z"/>
+  			<path id="path2422" class="st15" d="M116.6,259.3c0,2.8,1.9,5,4.3,5h25.5c2.4,0,4.3-2.3,4.3-5 v-30.5c0-2.8-1.9-5-4.3-5h-25.5c-2.3,0-4.3,2.2-4.3,5C116.6,228.9,116.6,259.3,116.6,259.3z"/>
+  			<path id="path2424" class="st15" d="M167,259.3c0,2.8,1.9,5,4.3,5h25.5c2.4,0,4.3-2.3,4.3-5 v-30.5c0-2.8-1.9-5-4.3-5h-25.5c-2.4,0-4.3,2.2-4.3,5V259.3z"/>
+  			<path id="path2426" class="st15" d="M218.4,259.3c0,2.8,1.9,5,4.3,5h25.5c2.4,0,4.3-2.3,4.3-5 v-30.5c0-2.8-1.9-5-4.3-5h-25.5c-2.4,0-4.3,2.2-4.3,5V259.3z"/>
+  			<path id="path2428" class="st15" d="M269.2,259.3c0,2.8,1.9,5,4.3,5h25.5c2.4,0,4.3-2.3,4.3-5 v-30.5c0-2.8-1.9-5-4.3-5h-25.5c-2.4,0-4.3,2.2-4.3,5V259.3z"/>
+  			<path id="path2430" class="st15" d="M320.6,259.3c0,2.8,1.9,5,4.3,5h25.5c2.4,0,4.3-2.3,4.3-5 v-30.5c0-2.8-1.9-5-4.3-5h-25.5c-2.4,0-4.3,2.2-4.3,5V259.3z"/>
+  			<path id="path2432" class="st15" d="M371.8,259.3c0,2.8,1.9,5,4.3,5h25.5c2.4,0,4.3-2.3,4.3-5 v-30.5c0-2.8-1.9-5-4.3-5H376c-2.4,0-4.3,2.2-4.3,5V259.3z"/>
+  			<path id="path2434" class="st15" d="M422.6,259.3c0,2.8,1.9,5,4.3,5h25.5c2.4,0,4.3-2.3,4.3-5 v-30.5c0-2.8-1.9-5-4.3-5h-25.5c-2.4,0-4.3,2.2-4.3,5V259.3z"/>
+  			<path id="path2436" class="st15" d="M498.7,259.3c0,2.8,1.9,5,4.3,5h25.5c2.3,0,4.3-2.3,4.3-5 v-30.5c0-2.8-1.9-5-4.3-5h-25.5c-2.4,0-4.3,2.2-4.3,5L498.7,259.3L498.7,259.3z"/>
+  			<path id="path2438" class="st15" d="M550.3,259.3c0,2.8,1.9,5,4.3,5h25.5c2.3,0,4.3-2.3,4.3-5 v-30.5c0-2.8-1.9-5-4.3-5h-25.5c-2.3,0-4.3,2.2-4.3,5V259.3z"/>
+  			<path id="path2440" class="st15" d="M601.1,259.3c0,2.8,1.9,5,4.3,5h25.5c2.3,0,4.3-2.3,4.3-5 v-30.5c0-2.8-1.9-5-4.3-5h-25.5c-2.4,0-4.3,2.2-4.3,5V259.3z"/>
+  			<path id="path2442" class="st15" d="M651.4,259.3c0,2.8,1.9,5,4.3,5h25.5c2.3,0,4.3-2.3,4.3-5 v-30.5c0-2.8-1.9-5-4.3-5h-25.5c-2.3,0-4.3,2.2-4.3,5V259.3z"/>
+  			<path id="path2444" class="st15" d="M1052.7,260.8c0,2.8,1.9,5,4.3,5h25.5c2.3,0,4.3-2.3,4.3-5 v-30.5c0-2.8-1.9-5-4.3-5H1057c-2.3,0-4.3,2.2-4.3,5V260.8z"/>
+  			<path id="path2446" class="st15" d="M1103.9,260.8c0,2.8,1.9,5,4.3,5h25.5c2.3,0,4.3-2.3,4.3-5 v-30.5c0-2.8-1.9-5-4.3-5h-25.5c-2.3,0-4.3,2.2-4.3,5V260.8z"/>
+  			<path id="path2448" class="st15" d="M1154.9,260.8c0,2.8,1.9,5,4.3,5h25.5c2.3,0,4.3-2.3,4.3-5 v-30.5c0-2.8-1.9-5-4.3-5h-25.5c-2.3,0-4.3,2.2-4.3,5V260.8z"/>
+  			<path id="path2450" class="st16" d="M143.9,321c0,2.8,1.9,5.1,4.3,5.1h25.5 c2.4,0,4.3-2.3,4.3-5.1v-30.9c0-2.8-1.9-5.1-4.3-5.1h-25.5c-2.4,0-4.3,2.3-4.3,5.1V321z"/>
+  			<path id="path2452" class="st16" d="M194.4,321c0,2.8,1.9,5.1,4.3,5.1h25.5 c2.4,0,4.3-2.3,4.3-5.1v-30.9c0-2.8-1.9-5.1-4.3-5.1h-25.5c-2.4,0-4.3,2.3-4.3,5.1V321z"/>
+  			<path id="path2454" class="st16" d="M245.9,321c0,2.8,1.9,5.1,4.3,5.1h25.5 c2.4,0,4.3-2.3,4.3-5.1v-30.9c0-2.8-1.9-5.1-4.3-5.1h-25.5c-2.4,0-4.3,2.3-4.3,5.1L245.9,321L245.9,321z"/>
+  			<path id="path2456" class="st16" d="M296.6,321c0,2.8,1.9,5.1,4.3,5.1h25.5 c2.4,0,4.3-2.3,4.3-5.1v-30.9c0-2.8-1.9-5.1-4.3-5.1h-25.5c-2.4,0-4.3,2.3-4.3,5.1V321z"/>
+  			<path id="path2458" class="st16" d="M347.7,321c0,2.8,1.9,5.1,4.3,5.1h25.5 c2.4,0,4.3-2.3,4.3-5.1v-30.9c0-2.8-1.9-5.1-4.3-5.1h-25.5c-2.4,0-4.3,2.3-4.3,5.1V321z"/>
+  			<path id="path2460" class="st16" d="M399,321c0,2.8,1.9,5.1,4.3,5.1h25.5 c2.4,0,4.3-2.3,4.3-5.1v-30.9c0-2.8-1.9-5.1-4.3-5.1h-25.5c-2.4,0-4.3,2.3-4.3,5.1V321z"/>
+  			<path id="path2462" class="st16" d="M471.8,321c0,2.8,1.9,5.1,4.3,5.1h25.5 c2.3,0,4.3-2.3,4.3-5.1v-30.9c0-2.8-1.9-5.1-4.3-5.1H476c-2.3,0-4.3,2.3-4.3,5.1V321z"/>
+  			<path id="path2464" class="st16" d="M523.4,321c0,2.8,1.9,5.1,4.3,5.1h25.5 c2.3,0,4.3-2.3,4.3-5.1v-30.9c0-2.8-1.9-5.1-4.3-5.1h-25.5c-2.4,0-4.3,2.3-4.3,5.1V321z"/>
+  			<path id="path2466" class="st16" d="M574.1,321c0,2.8,1.9,5.1,4.3,5.1h25.5 c2.3,0,4.3-2.3,4.3-5.1v-30.9c0-2.8-1.9-5.1-4.3-5.1h-25.5c-2.3,0-4.3,2.3-4.3,5.1V321z"/>
+  			<path id="path2468" class="st16" d="M625.3,321c0,2.8,1.9,5.1,4.3,5.1H655 c2.3,0,4.3-2.3,4.3-5.1v-30.9c0-2.8-1.9-5.1-4.3-5.1h-25.5c-2.3,0-4.3,2.3-4.3,5.1V321z"/>
+  			<path id="path2470" class="st16" d="M862.6,322.8c0,2.8,1.9,5.1,4.3,5.1h25.5 c2.3,0,4.3-2.3,4.3-5.1v-30.9c0-2.8-1.9-5.1-4.3-5.1h-25.5c-2.3,0-4.3,2.3-4.3,5.1V322.8z"/>
+  			<path id="path2472" class="st16" d="M1053.2,322.8c0,2.8,1.9,5.1,4.3,5.1h25.5 c2.3,0,4.3-2.3,4.3-5.1v-30.9c0-2.8-1.9-5.1-4.3-5.1h-25.5c-2.3,0-4.3,2.3-4.3,5.1V322.8z"/>
+  			<path id="path2474" class="st16" d="M1104.1,322.8c0,2.8,1.9,5.1,4.3,5.1h25.5 c2.3,0,4.3-2.3,4.3-5.1v-30.9c0-2.8-1.9-5.1-4.3-5.1h-25.5c-2.3,0-4.3,2.3-4.3,5.1V322.8z"/>
+  			<path id="path2476" class="st16" d="M1155.2,322.8c0,2.8,1.9,5.1,4.3,5.1h25.5 c2.3,0,4.3-2.3,4.3-5.1v-30.9c0-2.8-1.9-5.1-4.3-5.1h-25.5c-2.3,0-4.3,2.3-4.3,5.1V322.8z"/>
+  			<path id="path2478" class="st16" d="M862.8,385.6c0,2.8,1.9,5.1,4.3,5.1h25.5 c2.3,0,4.3-2.3,4.3-5.1v-30.9c0-2.8-1.9-5.1-4.3-5.1H867c-2.3,0-4.3,2.3-4.3,5.1V385.6z"/>
+  			<path id="path2480" class="st16" d="M914.5,385.6c0,2.8,1.9,5.1,4.3,5.1h25.5 c2.3,0,4.3-2.3,4.3-5.1v-30.9c0-2.8-1.9-5.1-4.3-5.1h-25.5c-2.3,0-4.3,2.3-4.3,5.1V385.6z"/>
+  			<path id="path2482" class="st16" d="M966.2,385.6c0,2.8,1.9,5.1,4.3,5.1H996 c2.3,0,4.3-2.3,4.3-5.1v-30.9c0-2.8-1.9-5.1-4.3-5.1h-25.5c-2.3,0-4.3,2.3-4.3,5.1V385.6z"/>
+  			<path id="path2484" class="st16" d="M1158.1,385.5c0,2.8,1.9,5.1,4.3,5.1h25.5 c2.3,0,4.3-2.3,4.3-5.1v-30.9c0-2.8-1.9-5.1-4.3-5.1h-25.5c-2.3,0-4.3,2.3-4.3,5.1V385.5z"/>
+  			<path id="path2486" class="st17" d="M25.3,320.8c0,2.7,1.9,5,4.3,5h93.3c2.4,0,4.3-2.2,4.3-5 v-30.1c0-2.7-1.9-5-4.3-5H29.6c-2.4,0-4.3,2.2-4.3,5V320.8z"/>
+  			<path id="path2488" class="st18" d="M25.3,259.4c0,2.8,1.9,5,4.3,5h66.1c2.4,0,4.3-2.3,4.3-5 v-30.5c0-2.8-1.9-5-4.3-5H29.6c-2.4,0-4.3,2.3-4.3,5C25.3,228.9,25.3,259.4,25.3,259.4z"/>
+  			<path id="path2490" class="st19" d="M25.3,195.7c0,2.7,2,4.9,4.5,4.9h52c2.5,0,4.5-2.2,4.5-4.9 v-29.8c0-2.7-2-4.9-4.5-4.9h-52c-2.5,0-4.5,2.2-4.5,4.9L25.3,195.7L25.3,195.7z"/>
+  			<path id="path2492" class="st20" d="M799.5,286.6h-15.7h-88.3h-15.7c-2.5,0-4.4,2.2-4.4,5v30.3 c0,2.8,2,5,4.4,5h15.7h88.3h15.7c2.5,0,4.4-2.2,4.4-5v-30.3C803.9,288.8,801.9,286.6,799.5,286.6L799.5,286.6z"/>
+  			<path id="path2494" class="st15" d="M804,260c0,2.4-2,4.4-4.4,4.4h-93.2c-2.4,0-4.4-2-4.4-4.4 v-31.8c0-2.4,2-4.4,4.4-4.4h93.2c2.4,0,4.4,2,4.4,4.4V260z"/>
+  			<path id="path2496" class="st21" d="M1255.7,162.8h-25.5c-2.4,0-4.3,2.2-4.3,4.9v26.6v3.2v24.4 v2.2v27.6c0,2.7,1.9,4.9,4.3,4.9h25.5c2.3,0,4.3-2.2,4.3-4.9v-27.6v-2.2v-24.4v-3.2v-26.6C1259.9,165,1258,162.8,1255.7,162.8z"
+  				/>
+  			<path id="path2498" class="st21" d="M1255,287.2h-25.5c-2.4,0-4.3,2.2-4.3,4.9v26.6v3.2v24.4 v2.2v27.6c0,2.7,1.9,4.9,4.3,4.9h25.5c2.3,0,4.3-2.2,4.3-4.9v-27.6v-2.2v-24.4v-3.2v-26.6C1259.3,289.4,1257.4,287.2,1255,287.2z
+  				"/>
+  			<path id="path2500" class="st22" d="M1137.1,349.9h-79.7c-2.4,0-4.4,2.2-4.4,5v30.3 c0,2.8,2,5,4.4,5h79.7c2.4,0,4.4-2.2,4.4-5v-30.3C1141.5,352.1,1139.5,349.9,1137.1,349.9z"/>
+  			<path id="path2502" class="st14" d="M691.9,195.7c0,2.7,1.9,4.9,4.3,4.9h25.5 c2.3,0,4.3-2.2,4.3-4.9v-29.8c0-2.7-1.9-4.9-4.3-4.9h-25.5c-2.3,0-4.3,2.2-4.3,4.9V195.7z"/>
+  			<path id="path2504" class="st19" d="M803.6,196.1c0,2.5-2.1,4.5-4.6,4.5h-51.8 c-2.5,0-4.6-2-4.6-4.5v-30.6c0-2.5,2.1-4.5,4.6-4.5h51.8c2.5,0,4.6,2,4.6,4.5V196.1z"/>
+  			
+  			<path id="path3400" class="st14" d="M460,131.5c0,2.5,1.9,4.6,4.3,4.6h25.5 c2.4,0,4.3-2,4.3-4.6v-27.7c0-2.5-1.9-4.6-4.3-4.6h-25.5c-2.4,0-4.3,2-4.3,4.6V131.5z"/>
+  			<path id="path3446" class="st14" d="M511.4,131.5c0,2.5,1.9,4.6,4.3,4.6h25.5 c2.3,0,4.3-2,4.3-4.6v-27.7c0-2.5-1.9-4.6-4.3-4.6h-25.5c-2.3,0-4.3,2-4.3,4.6L511.4,131.5L511.4,131.5z"/>
+  			<path id="path3448" class="st14" d="M562.2,131.5c0,2.5,1.9,4.6,4.3,4.6H592 c2.4,0,4.3-2,4.3-4.6v-27.7c0-2.5-1.9-4.6-4.3-4.6h-25.5c-2.3,0-4.3,2-4.3,4.6V131.5z"/>
+  			<path id="path3450" class="st14" d="M613.3,131.5c0,2.5,1.9,4.6,4.3,4.6h25.5 c2.3,0,4.3-2,4.3-4.6v-27.7c0-2.5-1.9-4.6-4.3-4.6h-25.5c-2.4,0-4.3,2-4.3,4.6V131.5z"/>
+  			<path id="path3452" class="st14" d="M665.4,131.5c0,2.5,1.9,4.6,4.3,4.6h25.5 c2.4,0,4.3-2,4.3-4.6v-27.7c0-2.5-1.9-4.6-4.3-4.6h-25.5c-2.3,0-4.3,2-4.3,4.6V131.5z"/>
+  			<path id="path3454" class="st14" d="M1053.3,131.5c0,2.5,1.9,4.6,4.3,4.6h25.5 c2.3,0,4.3-2,4.3-4.6v-27.7c0-2.5-1.9-4.6-4.3-4.6h-25.5c-2.3,0-4.3,2-4.3,4.6V131.5z"/>
+  			<path id="path3456" class="st14" d="M1104.3,131.5c0,2.5,1.9,4.6,4.3,4.6h25.5 c2.4,0,4.3-2,4.3-4.6v-27.7c0-2.5-1.9-4.6-4.3-4.6h-25.5c-2.3,0-4.3,2-4.3,4.6V131.5z"/>
+
+  			<path id="path3808" class="st14" d="M25.8,131.5c0,2.5,1.9,4.6,4.3,4.6h25.5 c2.3,0,4.3-2,4.3-4.6v-27.7c0-2.5-1.9-4.6-4.3-4.6H30c-2.4,0-4.3,2-4.3,4.6C25.8,103.8,25.8,131.5,25.8,131.5z"/>
+  			<path id="path3810" class="st14" d="M76.4,131.5c0,2.5,1.9,4.6,4.3,4.6h25.5 c2.3,0,4.3-2,4.3-4.6v-27.7c0-2.5-1.9-4.6-4.3-4.6H80.6c-2.3,0-4.3,2-4.3,4.6L76.4,131.5L76.4,131.5z"/>
+  			<path id="path3812" class="st14" d="M128.2,131.5c0,2.5,1.9,4.6,4.3,4.6H158 c2.4,0,4.3-2,4.3-4.6v-27.7c0-2.5-1.9-4.6-4.3-4.6h-25.5c-2.4,0-4.3,2-4.3,4.6V131.5z"/>
+  			<path id="path3814" class="st14" d="M179.8,131.5c0,2.5,1.9,4.6,4.3,4.6h25.5 c2.4,0,4.3-2,4.3-4.6v-27.7c0-2.5-1.9-4.6-4.3-4.6H184c-2.4,0-4.3,2-4.3,4.6V131.5z"/>
+  			<path id="path3816" class="st14" d="M230.7,131.5c0,2.5,1.9,4.6,4.3,4.6h25.5 c2.4,0,4.3-2,4.3-4.6v-27.7c0-2.5-1.9-4.6-4.3-4.6H235c-2.4,0-4.3,2-4.3,4.6V131.5z"/>
+  			<path id="path3818" class="st14" d="M282,131.5c0,2.5,1.9,4.6,4.3,4.6h25.5 c2.4,0,4.3-2,4.3-4.6v-27.7c0-2.5-1.9-4.6-4.3-4.6h-25.5c-2.4,0-4.3,2-4.3,4.6V131.5z"/>
+  			<path id="path3820" class="st14" d="M334.1,131.5c0,2.5,1.9,4.6,4.3,4.6h25.5 c2.4,0,4.3-2,4.3-4.6v-27.7c0-2.5-1.9-4.6-4.3-4.6h-25.5c-2.4,0-4.3,2-4.3,4.6V131.5z"/>
+  			<path id="path3822" class="st14" d="M385.2,131.5c0,2.5,1.9,4.6,4.3,4.6H415 c2.4,0,4.3-2,4.3-4.6v-27.7c0-2.5-1.9-4.6-4.3-4.6h-25.5c-2.4,0-4.3,2-4.3,4.6V131.5z"/>
+  			<path id="path3874" class="st14" d="M915.4,69.1c0,2.5,1.9,4.6,4.3,4.6h25.5 c2.3,0,4.3-2,4.3-4.6V41.4c0-2.5-1.9-4.6-4.3-4.6h-25.5c-2.3,0-4.3,2-4.3,4.6V69.1z"/>
+  			<path id="path3876" class="st14" d="M967.3,69.1c0,2.5,1.9,4.6,4.3,4.6h25.5 c2.3,0,4.3-2,4.3-4.6V41.4c0-2.5-1.9-4.6-4.3-4.6h-25.5c-2.3,0-4.3,2-4.3,4.6V69.1z"/>
+  			<path id="path3878" class="st23" d="M799.2,99.2h-79.1c-2.4,0-4.4,2-4.4,4.6v27.7 c0,2.5,2,4.6,4.4,4.6h79.1c2.4,0,4.4-2,4.4-4.6v-27.7C803.6,101.3,801.7,99.2,799.2,99.2z"/>
+
+        
+
+  			<path id="path3922" class="st14" d="M1155.2,131.5c0,2.5,1.9,4.6,4.3,4.6h25.5 c2.3,0,4.3-2,4.3-4.6v-27.7c0-2.5-1.9-4.6-4.3-4.6h-25.5c-2.3,0-4.3,2-4.3,4.6V131.5z"/>
+
+
+  			<path id="path3966" class="st14" d="M1207,131.5c0,2.5,1.9,4.6,4.3,4.6h25.5 c2.3,0,4.3-2,4.3-4.6v-27.7c0-2.5-1.9-4.6-4.3-4.6h-25.5c-2.3,0-4.3,2-4.3,4.6V131.5z"/>
+
+  			<path id="path4010" class="st14" d="M863,69.1c0,2.5,1.9,4.6,4.3,4.6h25.5c2.3,0,4.3-2,4.3-4.6 V41.4c0-2.5-1.9-4.6-4.3-4.6h-25.5c-2.3,0-4.3,2-4.3,4.6V69.1z"/>
+        
+        <!-- Home border -->
+  			<path id="path4096" class="st14" d="M915.2,131.4c0,2.5,1.9,4.6,4.3,4.6H945 c2.3,0,4.3-2,4.3-4.6v-27.7c0-2.5-1.9-4.6-4.3-4.6h-25.5c-2.3,0-4.3,2-4.3,4.6V131.4z"/>
+
+  			<path id="path4098" class="st14" d="M967.5,131.4c0,2.5,1.9,4.6,4.3,4.6h25.5 c2.3,0,4.3-2,4.3-4.6v-27.7c0-2.5-1.9-4.6-4.3-4.6h-25.5c-2.3,0-4.3,2-4.3,4.6V131.4z"/>
+
+  			<path id="path4142" class="st14" d="M862.8,131.4c0,2.5,1.9,4.6,4.3,4.6h25.5 c2.3,0,4.3-2,4.3-4.6v-27.7c0-2.5-1.9-4.6-4.3-4.6H867c-2.3,0-4.3,2-4.3,4.6V131.4z"/>
+        <path id="path4148" class="st26" d="M69.7,348.3H55H44.8H30.1c-2.3,0-4.1,2.2-4.1,5v30 c0,2.7,1.9,5,4.1,5h14.7H55h14.7c2.3,0,4.2-2.2,4.2-5v-30C73.8,350.5,72,348.3,69.7,348.3z"/>
+        <path id="path4152" class="st26" d="M133.9,348.3h-14.7H109H94.3c-2.3,0-4.2,2.2-4.2,5v30 c0,2.7,1.9,5,4.2,5H109h10.2h14.7c2.3,0,4.2-2.2,4.2-5v-30C138,350.5,136.2,348.3,133.9,348.3L133.9,348.3z"/>
+        <path id="path4156" class="st26" d="M198.7,348.3H184h-10.2h-14.7c-2.3,0-4.2,2.2-4.2,5v30 c0,2.7,1.9,5,4.2,5h14.7H184h14.7c2.3,0,4.2-2.2,4.2-5v-30C202.8,350.5,201,348.3,198.7,348.3z"/>
+  			<path id="path4160" class="st26" d="M798.9,348.3h-14.7H774h-14.7c-2.3,0-4.2,2.2-4.2,5v30 c0,2.7,1.9,5,4.2,5H774h10.2h14.7c2.3,0,4.2-2.2,4.2-5v-30C803,350.5,801.2,348.3,798.9,348.3L798.9,348.3z"/>
+  			<path id="path4164" class="st26" d="M734.3,348.3h-14.7h-10.2h-14.7c-2.3,0-4.2,2.2-4.2,5v30 c0,2.7,1.9,5,4.2,5h14.7h10.2h14.7c2.3,0,4.2-2.2,4.2-5v-30C738.4,350.5,736.6,348.3,734.3,348.3L734.3,348.3z"/>
+  			<path id="path4168" class="st26" d="M669.5,348.3h-14.7h-10.2h-14.7c-2.3,0-4.2,2.2-4.2,5v30 c0,2.7,1.9,5,4.2,5h14.7h10.2h14.7c2.3,0,4.2-2.2,4.2-5v-30C673.6,350.5,671.8,348.3,669.5,348.3L669.5,348.3z"/>
+  			<path id="path4172" class="st26" d="M604.7,348.3H590h-10.2h-14.7c-2.3,0-4.2,2.2-4.2,5v30 c0,2.7,1.9,5,4.2,5h14.7H590h14.7c2.3,0,4.2-2.2,4.2-5v-30C608.9,350.5,607,348.3,604.7,348.3z"/>
+        <!-- Space Bar Border -->
+  			<path id="path4174" class="st27" d="M538.1,384.3c0,2.2-1.9,4-4.1,4h-309c-2.3,0-4.1-1.8-4.1-4 v-31.7c0-2.2,1.9-4,4.1-4h309c2.3,0,4.1,1.8,4.1,4V384.3z"/>
+
+        <path id="path6774" class="st29" d="M460,69.1c0,2.6,1.9,4.6,4.3,4.6h25.5c2.3,0,4.3-2,4.3-4.6 V41.4c0-2.5-2-4.5-4.3-4.5h-25.5c-2.4,0-4.3,2-4.3,4.5V69.1z"/>
+        <path id="path6776" class="st29" d="M511.4,69.1c0,2.6,1.9,4.6,4.2,4.6h25.5 c2.4,0,4.3-2,4.3-4.6V41.4c0-2.5-1.9-4.5-4.3-4.5h-25.5c-2.3,0-4.2,2-4.2,4.5V69.1z"/>
+        <path id="path6778" class="st29" d="M562.2,69.1c0,2.6,2,4.6,4.3,4.6H592c2.4,0,4.3-2,4.3-4.6 V41.4c0-2.5-1.9-4.5-4.3-4.5h-25.5c-2.3,0-4.3,2-4.3,4.5V69.1z"/>
+        <path id="path6780" class="st29" d="M613.3,69.1c0,2.6,1.9,4.6,4.3,4.6h25.5 c2.3,0,4.2-2,4.2-4.6V41.4c0-2.5-1.9-4.5-4.2-4.5h-25.5c-2.4,0-4.3,2-4.3,4.5V69.1z"/>
+        <path id="path6782" class="st29" d="M665.4,69.1c0,2.6,1.9,4.6,4.3,4.6h25.5 c2.3,0,4.3-2,4.3-4.6V41.4c0-2.5-2-4.5-4.3-4.5h-25.5c-2.4,0-4.3,2-4.3,4.5V69.1z"/>
+        <path id="path6784" class="st29" d="M25.8,69.1c0,2.6,1.9,4.6,4.2,4.6h25.5c2.4,0,4.3-2,4.3-4.6 V41.4c0-2.6-1.9-4.6-4.3-4.6H30c-2.3,0-4.2,2-4.2,4.6C25.8,41.4,25.8,69.1,25.8,69.1z"/>
+        <path id="path6786" class="st29" d="M76.4,69.1c0,2.6,1.9,4.6,4.2,4.6h25.5c2.4,0,4.3-2,4.3-4.6 V41.4c0-2.5-1.9-4.5-4.3-4.5H80.6c-2.3,0-4.2,2-4.2,4.5V69.1z"/>
+        <path id="path6788" class="st29" d="M128.2,69.1c0,2.6,1.9,4.6,4.2,4.6h25.5 c2.4,0,4.3-2,4.3-4.6V41.4c0-2.6-1.9-4.6-4.3-4.6h-25.5c-2.3,0-4.2,2-4.2,4.6V69.1z"/>
+        <path id="path6790" class="st29" d="M179.7,69.1c0,2.6,1.9,4.6,4.3,4.6h25.5 c2.3,0,4.3-2,4.3-4.6V41.4c0-2.6-2-4.6-4.3-4.6H184c-2.4,0-4.3,2-4.3,4.6V69.1z"/>
+        <path id="path6792" class="st29" d="M230.7,69.1c0,2.6,1.9,4.6,4.3,4.6h25.5 c2.3,0,4.2-2,4.2-4.6V41.4c0-2.6-1.9-4.6-4.2-4.6H235c-2.4,0-4.3,2-4.3,4.6L230.7,69.1L230.7,69.1z"/>
+        <path id="path6794" class="st29" d="M282,69.1c0,2.6,1.9,4.6,4.2,4.6h25.5c2.4,0,4.3-2,4.3-4.6 V41.4c0-2.6-1.9-4.6-4.3-4.6h-25.5c-2.3,0-4.2,2-4.2,4.6V69.1z"/>
+        <!-- F6 border -->
+        <path id="path6796" class="st29" d="M334.1,69.1c0,2.6,2,4.6,4.3,4.6h25.5c2.3,0,4.3-2,4.3-4.6 V41.4c0-2.6-2-4.6-4.3-4.6h-25.5c-2.3,0-4.3,2-4.3,4.6V69.1z"/>
+        <!-- F7 border -->
+        <path id="path6798" class="st29" d="M385.2,69.1c0,2.6,1.9,4.6,4.3,4.6h25.5 c2.3,0,4.3-2,4.3-4.6V41.4c0-2.6-2-4.6-4.3-4.6h-25.5c-2.4,0-4.3,2-4.3,4.6V69.1z"/>
+  		</g>
+  	</g>
+
+  	<g id="layer4" inkscape:groupmode="layer" inkscape:label="Grid">
+
+      <!-- Row 0 -->
+      <use xlink:href="#grid" class="st30" transform="translate(  30.0, 40.5) scale( 25.5,29.5)"/><!-- Escape -->
+      <use xlink:href="#grid" class="st30" transform="translate(  80.6, 40.5) scale( 25.5,29.5)"/><!-- F1 -->
+      <use xlink:href="#grid" class="st30" transform="translate( 132.5, 40.5) scale( 25.5,29.5)"/><!-- F2 -->
+      <use xlink:href="#grid" class="st30" transform="translate( 184.0, 40.5) scale( 25.5,29.5)"/><!-- F3 -->
+      <use xlink:href="#grid" class="st30" transform="translate( 235.0, 40.5) scale( 25.5,29.5)"/><!-- F4 -->
+      <use xlink:href="#grid" class="st30" transform="translate( 286.3, 40.5) scale( 25.5,29.5)"/><!-- F5 -->
+      <use xlink:href="#grid" class="st30" transform="translate( 338.4, 40.5) scale( 25.5,29.5)"/><!-- F6 -->
+      <use xlink:href="#grid" class="st30" transform="translate( 389.4, 40.5) scale( 25.5,29.5)"/><!-- F7 -->
+      <use xlink:href="#grid" class="st30" transform="translate( 464.3, 40.5) scale( 25.5,29.5)"/><!-- F8 -->
+      <use xlink:href="#grid" class="st30" transform="translate( 515.7, 40.5) scale( 25.5,29.5)"/><!-- F9 -->
+      <use xlink:href="#grid" class="st30" transform="translate( 566.5, 40.5) scale( 25.5,29.5)"/><!-- F10 -->
+      <use xlink:href="#grid" class="st30" transform="translate( 617.6, 40.5) scale( 25.5,29.5)"/><!-- F11 -->
+      <use xlink:href="#grid" class="st30" transform="translate( 669.7, 40.5) scale( 25.5,29.5)"/><!-- F12 -->
+      <use xlink:href="#grid" class="st30" transform="translate( 867.2, 40.5) scale( 25.5,29.5)"/><!-- F13 -->
+      <use xlink:href="#grid" class="st30" transform="translate( 919.6, 40.5) scale( 25.5,29.5)"/><!-- F14 -->
+      <use xlink:href="#grid" class="st30" transform="translate( 971.6, 40.5) scale( 25.5,29.5)"/><!-- F15 -->
+
+      <!-- ROW 1 -->
+      <use xlink:href="#grid" class="st30" transform="translate(  30.0,102.9) scale( 25.5,29.5)"/><!-- Grave / Circumflex -->
+      <use xlink:href="#grid" class="st30" transform="translate(  80.6,102.9) scale( 25.5,29.5)"/><!-- 1 -->
+      <use xlink:href="#grid" class="st30" transform="translate( 132.5,102.9) scale( 25.5,29.5)"/><!-- 2 -->
+      <use xlink:href="#grid" class="st30" transform="translate( 184.0,102.9) scale( 25.5,29.5)"/><!-- 3 -->
+      <use xlink:href="#grid" class="st30" transform="translate( 235.0,102.9) scale( 25.5,29.5)"/><!-- 4 -->
+      <use xlink:href="#grid" class="st30" transform="translate( 286.3,102.9) scale( 25.5,29.5)"/><!-- 5 -->
+      <use xlink:href="#grid" class="st30" transform="translate( 338.4,102.9) scale( 25.5,29.5)"/><!-- 6 -->
+      <use xlink:href="#grid" class="st30" transform="translate( 389.4,102.9) scale( 25.5,29.5)"/><!-- 7 -->
+      <use xlink:href="#grid" class="st30" transform="translate( 464.3,102.9) scale( 25.5,29.5)"/><!-- 8 -->
+      <use xlink:href="#grid" class="st30" transform="translate( 515.6,102.9) scale( 25.5,29.5)"/><!-- 9 -->
+      <use xlink:href="#grid" class="st30" transform="translate( 566.5,102.9) scale( 25.5,29.5)"/><!-- 0 -->
+      <use xlink:href="#grid" class="st30" transform="translate( 617.6,102.9) scale( 25.5,29.5)"/><!-- Minus / Low Line -->
+      <use xlink:href="#grid" class="st30" transform="translate( 669.6,102.9) scale( 25.5,29.5)"/><!-- Equals / Plus -->
+      <use xlink:href="#grid" class="st30" transform="translate( 719.0,102.9) scale( 81.4,29.5)"/><!-- Delete / Backspace -->
+
+      <!-- ROW 2 -->
+      <use xlink:href="#grid" class="st30" transform="translate(  28.7,166.1) scale( 52.4,29.5)"/><!-- Tab -->
+      <use xlink:href="#grid" class="st30" transform="translate( 106.9,166.1) scale( 25.5,29.5)"/><!-- Q -->
+      <use xlink:href="#grid" class="st30" transform="translate( 158.6,166.1) scale( 25.5,29.5)"/><!-- W -->
+      <use xlink:href="#grid" class="st30" transform="translate( 210.0,166.1) scale( 25.5,29.5)"/><!-- E -->
+      <use xlink:href="#grid" class="st30" transform="translate( 260.7,166.1) scale( 25.5,29.5)"/><!-- R -->
+      <use xlink:href="#grid" class="st30" transform="translate( 311.8,166.1) scale( 25.5,29.5)"/><!-- T -->
+      <use xlink:href="#grid" class="st30" transform="translate( 362.7,166.1) scale( 25.5,29.5)"/><!-- Y -->
+      <use xlink:href="#grid" class="st30" transform="translate( 413.7,166.1) scale( 25.5,29.5)"/><!-- U -->
+      <use xlink:href="#grid" class="st30" transform="translate( 493.3,166.1) scale( 25.5,29.5)"/><!-- I -->
+      <use xlink:href="#grid" class="st30" transform="translate( 544.2,166.1) scale( 25.5,29.5)"/><!-- O -->
+      <use xlink:href="#grid" class="st30" transform="translate( 594.4,166.1) scale( 25.5,29.5)"/><!-- P -->
+      <use xlink:href="#grid" class="st30" transform="translate( 644.8,166.1) scale( 25.5,29.5)"/><!-- Left Bracket / Brace -->
+      <use xlink:href="#grid" class="st30" transform="translate( 696.3,166.1) scale( 25.5,29.5)"/><!-- Right Bracket / Brace -->
+      <use xlink:href="#grid" class="st30" transform="translate( 747.0,166.1) scale( 52.4,29.5)"/><!-- Reverse Solidus / Vertical Pipe -->
+
+      <!-- ROW 3 -->
+      <use xlink:href="#grid" class="st30" transform="translate(  29.1,229.1) scale( 67.4,29.5)"/><!-- Caps Lock -->
+      <use xlink:href="#grid" class="st30" transform="translate( 121.0,229.1) scale( 25.5,29.5)"/><!-- A -->
+      <use xlink:href="#grid" class="st30" transform="translate( 171.4,229.1) scale( 25.5,29.5)"/><!-- S -->
+      <use xlink:href="#grid" class="st30" transform="translate( 222.8,229.1) scale( 25.5,29.5)"/><!-- D -->
+      <use xlink:href="#grid" class="st30" transform="translate( 273.5,229.1) scale( 25.5,29.5)"/><!-- F -->
+      <use xlink:href="#grid" class="st30" transform="translate( 325.0,229.1) scale( 25.5,29.5)"/><!-- G -->
+      <use xlink:href="#grid" class="st30" transform="translate( 376.1,229.1) scale( 25.5,29.5)"/><!-- H -->
+      <use xlink:href="#grid" class="st30" transform="translate( 427.0,229.1) scale( 25.5,29.5)"/><!-- J -->
+      <use xlink:href="#grid" class="st30" transform="translate( 503.1,229.1) scale( 25.5,29.5)"/><!-- K -->
+      <use xlink:href="#grid" class="st30" transform="translate( 554.7,229.1) scale( 25.5,29.5)"/><!-- L -->
+      <use xlink:href="#grid" class="st30" transform="translate( 605.5,229.1) scale( 25.5,29.5)"/><!-- Semicolon / Colon -->
+      <use xlink:href="#grid" class="st30" transform="translate( 655.8,229.1) scale( 25.5,29.5)"/><!-- Single Quote / Double Quote -->
+      <use xlink:href="#grid" class="st30" transform="translate( 706.2,229.1) scale( 93.6,29.5)"/><!-- Return / Enter -->
+
+      <!-- ROW 4 -->
+      <use xlink:href="#grid" class="st30" transform="translate(  29.9,290.9) scale( 92.1,29.5)"/><!-- Left Shift -->
+      <use xlink:href="#grid" class="st30" transform="translate( 148.3,290.3) scale( 25.5,29.5)"/><!-- Z -->
+      <use xlink:href="#grid" class="st30" transform="translate( 198.8,290.3) scale( 25.5,29.5)"/><!-- X -->
+      <use xlink:href="#grid" class="st30" transform="translate( 250.3,290.3) scale( 25.5,29.5)"/><!-- C -->
+      <use xlink:href="#grid" class="st30" transform="translate( 301.0,290.3) scale( 25.5,29.5)"/><!-- V -->
+      <use xlink:href="#grid" class="st30" transform="translate( 352.1,290.3) scale( 25.5,29.5)"/><!-- B -->
+      <use xlink:href="#grid" class="st30" transform="translate( 403.4,290.3) scale( 25.5,29.5)"/><!-- N -->
+      <use xlink:href="#grid" class="st30" transform="translate( 476.1,290.3) scale( 25.5,29.5)"/><!-- M -->
+      <use xlink:href="#grid" class="st30" transform="translate( 527.8,290.3) scale( 25.5,29.5)"/><!-- Comma / Less Than -->
+      <use xlink:href="#grid" class="st30" transform="translate( 579.1,290.3) scale( 25.5,29.5)"/><!-- Period / Greater Than -->
+      <use xlink:href="#grid" class="st30" transform="translate( 629.6,290.3) scale( 25.5,29.5)"/><!-- Solidus / Question Mark -->
+      <use xlink:href="#grid" class="st30" transform="translate( 679.0,291.8) scale(121.2,29.5)"/><!-- Right Shift -->
+
+      <!-- ROW 5 -->
+      <use xlink:href="#grid" class="st30" transform="translate(  29.2,353.4) scale( 41.2,29.5)"/><!-- Left Control -->
+      <use xlink:href="#grid" class="st30" transform="translate(  93.5,353.4) scale( 41.2,29.5)"/><!-- Left Alt / Option -->
+      <use xlink:href="#grid" class="st30" transform="translate( 158.3,353.4) scale( 41.2,29.5)"/><!-- Left Command -->
+      <use xlink:href="#grid" class="st30" transform="translate( 225.5,353.6) scale(308.0,29.5)"/><!-- Space Bar -->
+      <use xlink:href="#grid" class="st30" transform="translate( 564.3,353.4) scale( 41.2,29.5)"/><!-- Right Command -->
+      <use xlink:href="#grid" class="st30" transform="translate( 629.1,353.4) scale( 41.2,29.5)"/><!-- Right Alt / Option -->
+      <use xlink:href="#grid" class="st30" transform="translate( 693.9,353.4) scale( 41.2,29.5)"/><!-- Right Function / Menu -->
+      <use xlink:href="#grid" class="st30" transform="translate( 758.4,353.4) scale( 41.2,29.5)"/><!-- Right Control -->
+
+      <!-- Navigation Keys -->
+      <use xlink:href="#grid" class="st30" transform="translate( 867.1,102.9) scale( 25.5,29.5)"/><!-- Insert -->
+      <use xlink:href="#grid" class="st30" transform="translate( 866.5,167.1) scale( 25.5,29.5)"/><!-- Delete -->
+      <use xlink:href="#grid" class="st30" transform="translate( 919.5,102.9) scale( 25.5,29.5)"/><!-- Home -->
+      <use xlink:href="#grid" class="st30" transform="translate( 917.6,167.1) scale( 25.5,29.5)"/><!-- End -->
+      <use xlink:href="#grid" class="st30" transform="translate( 971.8,102.9) scale( 25.5,29.5)"/><!-- Page Up -->
+      <use xlink:href="#grid" class="st30" transform="translate( 969.5,167.1) scale( 25.5,29.5)"/><!-- Page Down -->
+
+      <!-- Arrow Keys -->
+      <use xlink:href="#grid" class="st30" transform="translate( 867.0,292.2) scale( 25.5,29.5)"/><!-- Up Arrow -->
+      <use xlink:href="#grid" class="st30" transform="translate( 867.1,354.9) scale( 25.5,29.5)"/><!-- Left Arrow -->
+      <use xlink:href="#grid" class="st30" transform="translate( 918.9,354.9) scale( 25.5,29.5)"/><!-- Down Arrow -->
+      <use xlink:href="#grid" class="st30" transform="translate( 970.6,354.9) scale( 25.5,29.5)"/><!-- Right Arrow -->
+
+      <!-- Number Pad -->
+      <use xlink:href="#grid" class="st30" transform="translate(1057.6,103.0) scale( 25.5,29.5)"/><!-- Num Lock -->
+      <use xlink:href="#grid" class="st30" transform="translate(1108.6,103.0) scale( 25.5,29.5)"/><!-- / -->
+      <use xlink:href="#grid" class="st30" transform="translate(1159.5,103.0) scale( 25.5,29.5)"/><!-- * -->
+      <use xlink:href="#grid" class="st30" transform="translate(1211.2,102.9) scale( 25.5,29.5)"/><!-- - -->
+      <use xlink:href="#grid" class="st30" transform="translate(1057.5,167.4) scale( 25.5,29.5)"/><!-- 7 -->
+      <use xlink:href="#grid" class="st30" transform="translate(1108.0,167.4) scale( 25.5,29.5)"/><!-- 8 -->
+      <use xlink:href="#grid" class="st30" transform="translate(1159.3,167.4) scale( 25.5,29.5)"/><!-- 9 -->
+      <use xlink:href="#grid" class="st30" transform="translate(1057.1,230.5) scale( 25.5,29.5)"/><!-- 4 -->
+      <use xlink:href="#grid" class="st30" transform="translate(1108.3,230.5) scale( 25.5,29.5)"/><!-- 5 -->
+      <use xlink:href="#grid" class="st30" transform="translate(1159.3,230.5) scale( 25.5,29.5)"/><!-- 6 -->
+      <use xlink:href="#grid" class="st30" transform="translate(1057.5,292.2) scale( 25.5,29.5)"/><!-- 1 -->
+      <use xlink:href="#grid" class="st30" transform="translate(1108.4,292.2) scale( 25.5,29.5)"/><!-- 2 -->
+      <use xlink:href="#grid" class="st30" transform="translate(1159.6,292.2) scale( 25.5,29.5)"/><!-- 3 -->
+      <use xlink:href="#grid" class="st30" transform="translate(1056.7,355.1) scale( 81.0,29.5)"/><!-- 0 -->
+      <use xlink:href="#grid" class="st30" transform="translate(1162.5,354.8) scale( 25.5,29.5)"/><!-- Decimal Point -->
+      <use xlink:href="#grid" class="st30" transform="translate(1230.3,168.1) scale( 25.5,83.1)"/><!-- + -->
+      <use xlink:href="#grid" class="st30" transform="translate(1229.7,292.5) scale( 25.5,83.1)"/><!-- Enter -->
+
+
+
+
+
+        
+
+  	</g>
+
+  	<g id="layer3" inkscape:groupmode="layer" inkscape:label="Your Design Layer">
+
+      <!-- Row 0 -->
+      <!-- Escape -->
+      <g transform="translate(  30.0, 40.5)">
+        <text class="functionLeft">esc</text>
+      </g>
+      <!-- TODO: According to pics of Mac keyboards, the F key text is centered. -->
+      <!-- F1 -->
+      <g transform="translate(  80.6, 40.5)">
+        <!-- TODO icon -->
+        <!-- <use xlink:href="icons.svg#brightnessDown"/> -->
+        <text class="fn">F1</text>
+      </g>
+      <!-- F2 -->
+      <g transform="translate( 132.5, 40.5)">
+        <!-- TODO icon -->
+        <text class="fn">F2</text>
+      </g>
+      <!-- F3 -->
+      <g transform="translate( 184.0, 40.5)">
+        <!-- TODO icon -->
+        <text class="fn">F3</text>
+      </g>
+      <!-- F4 -->
+      <g transform="translate( 235.0, 40.5)">
+        <!-- TODO icon -->
+        <text class="fn">F4</text>
+      </g>
+      <!-- F5 -->
+      <g transform="translate( 286.3, 40.5)">
+        <text class="fn">F5</text>
+      </g>
+      <!-- F6 -->
+      <g transform="translate( 338.4, 40.5)">
+        <text class="fn">F6</text>
+      </g>
+      <!-- F7 -->
+      <g transform="translate( 389.4, 40.5)">
+        <!-- TODO icon -->
+        <text class="fn">F7</text>
+      </g>
+      <!-- F8 -->
+      <g transform="translate( 464.3, 40.5)">
+        <!-- TODO icon -->
+        <text class="fn">F8</text>
+      </g>
+      <!-- F9 -->
+      <g transform="translate( 515.7, 40.5)">
+        <!-- TODO icon -->
+        <text class="fn">F9</text>
+      </g>
+      <!-- F10 -->
+      <g transform="translate( 566.5, 40.5)">
+        <!-- TODO icon -->
+        <text class="fn">F10</text>
+      </g>
+      <!-- F11 -->
+      <g transform="translate( 617.6, 40.5)">
+        <!-- TODO icon -->
+        <text class="fn">F11</text>
+      </g>
+      <!-- F12 -->
+      <g transform="translate( 669.7, 40.5)">
+        <!-- TODO icon -->
+        <text class="fn">F12</text>
+      </g>
+      <!-- F13 -->
+      <g transform="translate( 867.2, 40.5)">
+        <text class="fn">F13</text>
+      </g>
+      <!-- F14 -->
+      <g transform="translate( 919.6, 40.5)">
+        <text class="fn">F14</text>
+      </g>
+      <!-- F15 -->
+      <g transform="translate( 971.6, 40.5)">
+        <text class="fn">F15</text>
+      </g>
+
+      <!-- ROW 1 -->
+      <!-- Grave / Circumflex -->
+      <g transform="translate(  30.0,102.9)">
+        <text class="shiftable">`</text>
+        <text class="shift">~</text>
+        <text class="altshift">`</text><!-- offset hack here -->
+      </g>
+      <!-- 1 -->
+      <g transform="translate(  80.6,102.9)">
+        <text class="shiftable">1</text>
+        <text class="shift">!</text>
+        <text class="alt">¡</text>
+        <text class="altshift">⁄</text>
+      </g>
+      <!-- 2 -->
+      <g transform="translate( 132.5,102.9)">
+        <text class="shiftable">2</text>
+        <text class="shift">@</text>
+        <text class="alt">™</text>
+        <text class="altshift">€</text>
+      </g>
+      <!-- 3 -->
+      <g transform="translate( 184.0,102.9)">
+        <text class="shiftable">3</text>
+        <text class="shift">#</text>
+        <text class="alt">£</text>
+        <text class="altshift">‹</text>
+      </g>
+      <!-- 4 -->
+      <g transform="translate( 235.0,102.9)">
+        <text class="shiftable">4</text>
+        <text class="shift">$</text>
+        <text class="alt">¢</text>
+        <text class="altshift">›</text>
+      </g>
+      <!-- 5 -->
+      <g transform="translate( 286.3,102.9)">
+        <text class="shiftable">5</text>
+        <text class="shift">%</text>
+        <text class="alt">∞</text>
+        <text class="altshift">ﬁ</text>
+      </g>
+      <!-- 6 -->
+      <g transform="translate( 338.4,102.9)">
+        <text class="shiftable">6</text>
+        <text class="shift">^</text>
+        <text class="alt">§</text>
+        <text class="altshift">ﬂ</text>
+      </g>
+      <!-- 7 -->
+      <g transform="translate( 389.4,102.9)">
+        <text class="shiftable">7</text>
+        <text class="shift">&amp;</text>
+        <text class="alt">¶</text>
+        <text class="altshift">‡</text>
+      </g>
+      <!-- 8 -->
+      <g transform="translate( 464.3,102.9)">
+        <text class="shiftable">8</text>
+        <text class="shift">*</text>
+        <text class="alt">•</text>
+        <text class="altshift">°</text>
+      </g>
+      <!-- 9 -->
+      <g transform="translate( 515.6,102.9)">
+        <text class="shiftable">9</text>
+        <text class="shift">(</text>
+        <text class="alt">ª</text>
+        <text class="altshift">·</text>
+      </g>
+      <!-- 0 -->
+      <g transform="translate( 566.5,102.9)">
+        <text class="shiftable">0</text>
+        <text class="shift">)</text>
+        <text class="alt">º</text>
+        <text class="altshift">‚</text>
+      </g>
+      <!-- Minus / Low Line -->
+      <g transform="translate( 617.6,102.9)">
+        <text class="shiftable">-</text>
+        <text class="shift">_</text>
+        <text class="alt">–</text>
+        <text class="altshift">—</text>
+      </g>
+      <!-- Equals / Plus -->
+      <g transform="translate( 669.6,102.9)">
+        <text class="shiftable">=</text>
+        <text class="shift">+</text>
+        <text class="alt">≠</text>
+        <text class="altshift">±</text>
+      </g>
+      <!-- Delete / Backspace -->
+      <g transform="translate( 719.0,102.9)">
+        <text class="functionRight2_0">delete</text>
+      </g>
+
+      <!-- ROW 2 -->
+      <!-- Tab -->
+      <g transform="translate(  28.7,166.1)">
+        <text class="functionLeft">tab</text>
+      </g>
+      <!-- Q -->
+      <g transform="translate( 106.9,166.1)">
+        <text class="letter">Q</text>
+        <text class="alt">œ</text>
+        <text class="altshift">Œ</text>
+      </g>
+      <!-- W -->
+      <g transform="translate( 158.6,166.1)">
+        <text class="letter">W</text>
+        <text class="alt">∑</text>
+        <text class="altshift">„</text>
+      </g>
+      <!-- E -->
+      <g transform="translate( 210.0,166.1)">
+        <text class="letter">E</text>
+        <text class="altshift">´</text>
+      </g>
+      <!-- R -->
+      <g transform="translate( 260.7,166.1)">
+        <text class="letter">R</text>
+        <text class="alt">®</text>
+        <text class="altshift">‰</text>
+      </g>
+      <!-- T -->
+      <g transform="translate( 311.8,166.1)">
+        <text class="letter">T</text>
+        <text class="alt">†</text>
+        <text class="altshift">ˇ</text>
+      </g>
+      <!-- Y -->
+      <g transform="translate( 362.7,166.1)">
+        <text class="letter">Y</text>
+        <text class="altshift">¨</text>
+        <text class="alt">¥</text>
+        <text class="altshift">Á</text>
+      </g>
+      <!-- U -->
+      <g transform="translate( 413.7,166.1)">
+        <text class="letter">U</text>
+        <text class="altshift">¨</text>
+      </g>
+      <!-- I -->
+      <g transform="translate( 493.3,166.1)">
+        <text class="letter">I</text>
+        <text class="altshift">ˆ</text>
+      </g>
+      <!-- O -->
+      <g transform="translate( 544.2,166.1)">
+        <text class="letter">O</text>
+        <text class="alt">ø</text>
+        <text class="altshift">Ø</text>
+      </g>
+      <!-- P -->
+      <g transform="translate( 594.4,166.1)">
+        <text class="letter">P</text>
+        <text class="alt">π</text>
+        <text class="altshift">∏</text>
+      </g>
+      <!-- Left Bracket / Brace -->
+      <g transform="translate( 644.8,166.1)">
+        <text class="shiftable">[</text>
+        <text class="shift">{</text>
+        <text class="alt">“</text>
+        <text class="altshift">”</text>
+      </g>
+      <!-- Right Bracket / Brace -->
+      <g transform="translate( 696.3,166.1)">
+        <text class="shiftable">]</text>
+        <text class="shift">}</text>
+        <text class="alt">‘</text>
+        <text class="altshift">’</text>
+      </g>
+      <!-- Reverse Solidus / Vertical Pipe -->
+      <g transform="translate( 747.0,166.1)">
+        <text class="shiftable">\</text>
+        <text class="shift">|</text>
+        <text class="alt1_5">«</text>
+        <text class="altshift1_5">»</text>
+      </g>
+
+      <!-- ROW 3 -->
+      <!-- Caps Lock -->
+      <g transform="translate(  29.1,229.1)">
+        <text class="functionLeft">caps lock</text>
+      </g>
+      <!-- A -->
+      <g transform="translate( 121.0,229.1)">
+        <text class="letter">A</text>
+        <text class="alt">å</text>
+        <text class="altshift">Å</text>
+      </g>
+      <!-- S -->
+      <g transform="translate( 171.4,229.1)">
+        <text class="letter">S</text>
+        <text class="alt">ß</text>
+        <text class="altshift">Í</text>
+      </g>
+      <!-- D -->
+      <g transform="translate( 222.8,229.1)">
+        <text class="letter">D</text>
+        <text class="alt">∂</text>
+        <text class="altshift">Î</text>
+      </g>
+      <!-- F -->
+      <g transform="translate( 273.5,229.1)">
+        <text class="letter">F</text>
+        <text class="alt">ƒ</text>
+        <text class="altshift">Ï</text>
+      </g>
+      <!-- G -->
+      <g transform="translate( 325.0,229.1)">
+        <text class="letter">G</text>
+        <text class="alt">©</text>
+        <text class="altshift">˝</text>
+      </g>
+      <!-- H -->
+      <g transform="translate( 376.1,229.1)">
+        <text class="letter">H</text>
+        <text class="alt">˙</text>
+        <text class="altshift">Ó</text>
+      </g>
+      <!-- J -->
+      <g transform="translate( 427.0,229.1)">
+        <text class="letter">J</text>
+        <text class="alt">∆</text>
+        <text class="altshift">Ô</text>
+      </g>
+      <!-- K -->
+      <g transform="translate( 503.1,229.1)">
+        <text class="letter">K</text>
+        <text class="alt">˚</text>
+        <text class="altshift"></text>
+      </g>
+      <!-- L -->
+      <g transform="translate( 554.7,229.1)">
+        <text class="letter">L</text>
+        <text class="alt">¬</text>
+        <text class="altshift">Ò</text>
+      </g>
+      <!-- Semicolon / Colon -->
+      <g transform="translate( 605.5,229.1)">
+        <text class="shiftable">;</text>
+        <text class="shift">:</text>
+        <text class="alt">…</text>
+        <text class="altshift">Ú</text>
+      </g>
+      <!-- Single Quote / Double Quote -->
+      <g transform="translate( 655.8,229.1)">
+        <text class="shiftable">'</text>
+        <text class="shift">"</text>
+        <text class="alt">æ</text>
+        <text class="altshift">Æ</text>
+      </g>
+      <!-- Return / Enter -->
+      <g transform="translate( 706.2,229.1)">
+        <text class="altFunctionRight2_25">enter</text>
+        <text class="functionRight2_25">return</text>
+      </g>
+
+      <!-- ROW 4 -->
+      <!-- Left Shift -->
+      <g transform="translate(  29.9,290.9)">
+        <text class="functionLeft">shift</text>
+      </g>
+      <!-- Z -->
+      <g transform="translate( 148.3,290.3)">
+        <text class="letter">Z</text>
+        <text class="alt">Ω</text>
+        <text class="altshift">¸</text>
+      </g>
+      <!-- X -->
+      <g transform="translate( 198.8,290.3)">
+        <text class="letter">X</text>
+        <text class="alt">≈</text>
+        <text class="altshift">˛</text>
+      </g>
+      <!-- C -->
+      <g transform="translate( 250.3,290.3)">
+        <text class="letter">C</text>
+        <text class="alt">ç</text>
+        <text class="altshift">Ç</text>
+      </g>
+      <!-- V -->
+      <g transform="translate( 301.0,290.3)">
+        <text class="letter">V</text>
+        <text class="alt">√</text>
+        <text class="altshift">◊</text>
+      </g>
+      <!-- B -->
+      <g transform="translate( 352.1,290.3)">
+        <text class="letter">B</text>
+        <text class="alt">∫</text>
+        <text class="altshift">ı</text>
+      </g>
+      <!-- N -->
+      <g transform="translate( 403.4,290.3)">
+        <text class="letter">N</text>
+        <text class="altshift">˜</text>
+      </g>
+      <!-- M -->
+      <g transform="translate( 476.1,290.3)">
+        <text class="letter">M</text>
+        <text class="alt">µ</text>
+        <text class="altshift">Â</text>
+      </g>
+      <!-- Comma / Less Than -->
+      <g transform="translate( 527.8,290.3)">
+        <text class="shiftable">,</text>
+        <text class="shift">&lt;</text>
+        <text class="alt">≤</text>
+        <text class="altshift">¯</text>
+      </g>
+      <!-- Period / Greater Than -->
+      <g transform="translate( 579.1,290.3)">
+        <text class="shiftable">.</text>
+        <text class="shift">&gt;</text>
+        <text class="alt">≥</text>
+        <text class="altshift">˘</text>
+      </g>
+      <!-- Solidus / Question Mark -->
+      <g transform="translate( 629.6,290.3)">
+        <text class="shiftable">/</text>
+        <text class="shift">?</text>
+        <text class="alt">÷</text>
+        <text class="altshift">¿</text>
+      </g>
+      <!-- Right Shift -->
+      <g transform="translate( 679.0,291.8)">
+        <text class="functionRight2_75">shift</text>
+      </g>
+
+      <!-- ROW 5 -->
+      <!-- Left Control -->
+      <g transform="translate(  29.2,353.4)">
+        <text class="functionLeft">control</text>
+      </g>
+      <!-- Left Alt / Option -->
+      <g transform="translate(  93.5,353.4)">
+        <text class="altFunctionLeft">alt</text>
+        <text class="functionLeft">option</text>
+      </g>
+      <!-- Left Command -->
+      <g transform="translate( 158.3,353.4)">
+        <text class="commandSymbolRight">⌘</text>
+        <text class="functionRight1_25">command</text>
+      </g>
+      <!-- Space Bar -->
+      <g transform="translate( 225.5,353.6)">
+        <!-- TODO: Are we going to do anything here? -->
+      </g>
+      <!-- Right Command -->
+      <g transform="translate( 564.3,353.4)">
+        <text class="commandSymbol">⌘</text>
+        <text class="functionLeft">command</text>
+      </g>
+      <!-- Right Alt / Option -->
+      <g transform="translate( 629.1,353.4)">
+        <text class="altFunctionRight1_25">alt</text>
+        <text class="functionRight1_25">option</text>
+      </g>
+      <!-- Right Function / Menu -->
+      <g transform="translate( 693.9,353.4)">
+        <!-- TODO: What to put here? -->
+        <text class="specialKey">¶(/•˅̮•\)⁋</text>
+      </g>
+      <!-- Right Control -->
+      <g transform="translate( 758.4,353.4)">
+        <text class="functionRight1_25">control</text>
+      </g>
+
+      <!-- Navigation Keys -->
+      <!-- Insert -->
+      <g transform="translate( 867.1,102.9)">
+        <text class="functionLeft">help</text>
+      </g>
+      <!-- Delete -->
+      <g transform="translate( 866.5,167.1)">
+        <text class="altFunctionLeft">del</text>
+        <!-- TODO: Icon? -->
+      </g>
+      <!-- Home -->
+      <g transform="translate( 919.5,102.9)">
+        <text class="functionLeft">home</text>
+      </g>
+      <!-- End -->
+      <g transform="translate( 917.6,167.1)">
+        <text class="functionLeft">end</text>
+      </g>
+      <!-- Page Up -->
+      <g transform="translate( 971.8,102.9)">
+        <text class="functionLeftAbove">page</text>
+        <text class="functionLeft">up</text>
+      </g>
+      <!-- Page Down -->
+      <g transform="translate( 969.5,167.1)">
+        <text class="functionLeftAbove">page</text>
+        <text class="functionLeft">down</text>
+      </g>
+
+      <!-- Arrow Keys -->
+      <!-- Up Arrow -->
+      <g transform="translate( 867.0,292.2)">
+        <text class="arrow">↑</text>
+      </g>
+      <!-- Left Arrow -->
+      <g transform="translate( 867.1,354.9)">
+        <text class="arrow">←</text>
+      </g>
+      <!-- Down Arrow -->
+      <g transform="translate( 918.9,354.9)">
+        <text class="arrow">↓</text>
+      </g>
+      <!-- Right Arrow -->
+      <g transform="translate( 970.6,354.9)">
+        <text class="arrow">→</text>
+      </g>
+
+      <!-- Number Pad -->
+      <!-- Num Lock -->
+      <g transform="translate(1057.6,103.0)">
+          
+      </g>
+      <!-- / -->
+      <g transform="translate(1108.6,103.0)">
+          
+      </g>
+      <!-- * -->
+      <g transform="translate(1159.5,103.0)">
+          
+      </g>
+      <!-- - -->
+      <g transform="translate(1211.2,102.9)">
+          
+      </g>
+      <!-- 7 -->
+      <g transform="translate(1057.5,167.4)">
+          
+      </g>
+      <!-- 8 -->
+      <g transform="translate(1108.0,167.4)">
+          
+      </g>
+      <!-- 9 -->
+      <g transform="translate(1159.3,167.4)">
+          
+      </g>
+      <!-- 4 -->
+      <g transform="translate(1057.1,230.5)">
+          
+      </g>
+      <!-- 5 -->
+      <g transform="translate(1108.3,230.5)">
+          
+      </g>
+      <!-- 6 -->
+      <g transform="translate(1159.3,230.5)">
+          
+      </g>
+      <!-- 1 -->
+      <g transform="translate(1057.5,292.2)">
+          
+      </g>
+      <!-- 2 -->
+      <g transform="translate(1108.4,292.2)">
+          
+      </g>
+      <!-- 3 -->
+      <g transform="translate(1159.6,292.2)">
+          
+      </g>
+      <!-- 0 -->
+      <g transform="translate(1056.7,355.1)">
+          
+      </g>
+      <!-- Decimal Point -->
+      <g transform="translate(1162.5,354.8)">
+          
+      </g>
+      <!-- + -->
+      <g transform="translate(1230.3,168.1)">
+          
+      </g>
+      <!-- Enter -->
+      <g transform="translate(1229.7,292.5)">
+          
+      </g>
+
+
+  	</g>
+  </g>
+</svg>
