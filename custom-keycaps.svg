@@ -18,7 +18,7 @@
     }
 
     .letter {
-      font-family: 'VAGRounded-Thin'; font-size: 18px;
+      font-family: 'VAGRounded-Light'; font-size: 18px;
       transform: translate(0px, 29.5px);
     }
     .arrow {
@@ -27,7 +27,7 @@
     }
 
     .functionLeft, .functionLeftAbove, .functionRight1_25, .functionRight2_0, .functionRight2_25, .functionRight2_75 {
-      font-family: 'VAGRounded-Thin'; font-size: 9px;
+      font-family: 'VAGRounded-Thin'; font-size: 9.75px;
     }
     .functionLeft {
       transform: translate(0px, 29.5px);
@@ -62,38 +62,49 @@
     }
 
     .specialKey {
-      font-family: 'Helvetica'; font-size: 9px;
-      transform: translate(41.2px, 29.5px); text-anchor: end;
+      font-family: 'Helvetica'; font-size: 9.75px;
+      transform: translate(0px, 29.5px);
     }
 
     .fn {
-      font-family: 'VAGRounded-Thin'; font-size: 8px;
-      transform: translate(12.75px, 29.5px); text-anchor: middle;
+      font-family: 'VAGRounded-Thin'; font-size: 9.75px;
+      transform: translate(0px, 29.5px);
+    }
+    .fnIconScale {
+      transform: scale(0.6, 0.6) translate(-3.5px, -3.5px);
     }
 
-    .commandSymbol, .commandSymbolRight {
+    .commandSymbolLeft, .commandSymbolRight1_25, .commandSymbolRight1_5, .commandSymbolRight1_75, .commandSymbolRight2_25 {
       font-family: 'Helvetica'; font-size: 14px;
     }
-    .commandSymbol {
-      transform: translate(-1.5px, 10.5px);
+    .commandSymbolLeft {
+      transform: translate(-0.5px, 10.5px);
     }
-    .commandSymbolRight {
+    .commandSymbolRight1_25 {
       transform: translate(43.0px, 10.5px); text-anchor: end;
+    }
+    .commandSymbolRight1_5 {
+      transform: translate(53.6px, 10.5px); text-anchor: end;
+    }
+    .commandSymbolRight1_75 {
+      transform: translate(68.3px, 10.5px); text-anchor: end;
+    }
+    .commandSymbolRight2_25 {
+      transform: translate(93.6px, 10.5px); text-anchor: end;
     }
 
     .shift, .shiftable {
-      font-family: 'VAGRounded-Thin'; font-size: 13px;
+      font-family: 'VAGRounded-Light'; font-size: 13px;
     }
     .shift {
-      transform: translate(0px, 10px);
+      transform: translate(4px, 10px); text-anchor: middle;
     }
     .shiftable {
-      transform: translate(0px, 29.5px);
+      transform: translate(4px, 29.5px); text-anchor: middle;
     }
 
     .alt, .altshift, .alt1_5, .altshift1_5 {
       font-family: 'Helvetica'; font-size: 7pt; font-style: italic;
-      fill: red;
     }
     .alt {
       text-anchor: middle; transform: translate(21px, 19px);
@@ -390,70 +401,193 @@
       <!-- Row 0 -->
       <!-- Escape -->
       <g transform="translate(  30.0, 40.5)">
+        <g transform="translate(0 2.5)"><!-- Hack to line up circle with icons to the right -->
+          <text class="commandSymbolLeft">⎋</text>
+        </g>
         <text class="functionLeft">esc</text>
       </g>
-      <!-- TODO: According to pics of Mac keyboards, the F key text is centered. -->
       <!-- F1 -->
       <g transform="translate(  80.6, 40.5)">
-        <!-- TODO icon -->
-        <!-- <use xlink:href="icons.svg#brightnessDown"/> -->
+        <g class="fnIconScale">
+          <g id="brightnessDown" fill="none" stroke-width="1.5" stroke="black" stroke-linecap="round">
+            <path d="M 16,16
+                     m -4 0
+                     a 4,4 0 1,0 8,0
+                     a 4,4 0 1,0 -8,0
+                     "/>
+            <line x1="25" y1="16" x2="26" y2="16"/>
+            <line x1="25" y1="16" x2="26" y2="16" transform="rotate(45,16,16)"/>
+            <line x1="25" y1="16" x2="26" y2="16" transform="rotate(90,16,16)"/>
+            <line x1="25" y1="16" x2="26" y2="16" transform="rotate(135,16,16)"/>
+            <line x1="25" y1="16" x2="26" y2="16" transform="rotate(180,16,16)"/>
+            <line x1="25" y1="16" x2="26" y2="16" transform="rotate(225,16,16)"/>
+            <line x1="25" y1="16" x2="26" y2="16" transform="rotate(270,16,16)"/>
+            <line x1="25" y1="16" x2="26" y2="16" transform="rotate(315,16,16)"/>
+          </g>
+        </g>
+
         <text class="fn">F1</text>
       </g>
       <!-- F2 -->
       <g transform="translate( 132.5, 40.5)">
-        <!-- TODO icon -->
+        <g class="fnIconScale">
+          <g id="brightnessUp" fill="none" stroke-width="1.5" stroke="black" stroke-linecap="round">
+            <path d="M 16,16
+                     m -5 0
+                     a 5,5 0 1,0 10,0
+                     a 5,5 0 1,0 -10,0
+                     "/>
+            <line x1="25" y1="16" x2="28" y2="16"/>
+            <line x1="25" y1="16" x2="28" y2="16" transform="rotate(45,16,16)"/>
+            <line x1="25" y1="16" x2="28" y2="16" transform="rotate(90,16,16)"/>
+            <line x1="25" y1="16" x2="28" y2="16" transform="rotate(135,16,16)"/>
+            <line x1="25" y1="16" x2="28" y2="16" transform="rotate(180,16,16)"/>
+            <line x1="25" y1="16" x2="28" y2="16" transform="rotate(225,16,16)"/>
+            <line x1="25" y1="16" x2="28" y2="16" transform="rotate(270,16,16)"/>
+            <line x1="25" y1="16" x2="28" y2="16" transform="rotate(315,16,16)"/>
+          </g>
+        </g>
         <text class="fn">F2</text>
       </g>
       <!-- F3 -->
       <g transform="translate( 184.0, 40.5)">
-        <!-- TODO icon -->
+        <g class="fnIconScale">
+          <g id="missionControl" fill="none" stroke-width="1" stroke="black" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="5.5" y="10" width="8" height="5"/> 
+            <rect x="18.5" y="11" width="7" height="8"/>
+            <rect x="7.5" y="19" width="8" height="3"/>
+          </g>
+        </g>
         <text class="fn">F3</text>
       </g>
       <!-- F4 -->
       <g transform="translate( 235.0, 40.5)">
-        <!-- TODO icon -->
+        <g class="fnIconScale">
+          <g id="launchpad" fill="none" stroke-width="1" stroke="black" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="5.5" y="10" width="5" height="5"/>
+            <rect x="13.5" y="10" width="5" height="5"/>
+            <rect x="21.5" y="10" width="5" height="5"/>
+            <rect x="5.5" y="18" width="5" height="5"/>
+            <rect x="13.5" y="18" width="5" height="5"/>
+            <rect x="21.5" y="18" width="5" height="5"/>
+          </g>
+        </g>
         <text class="fn">F4</text>
       </g>
       <!-- F5 -->
       <g transform="translate( 286.3, 40.5)">
+        <g class="fnIconScale">
+          <g id="keyboardLightingDown" fill="none" stroke-width="1.5" stroke="black" stroke-linecap="round">
+            <line x1="12" y1="21" x2="20" y2="21"/>
+            <line x1="16" y1="13" x2="16" y2="12"/>
+            <line x1="16" y1="13" x2="16" y2="12" transform="rotate(40,16,22)"/>
+            <line x1="16" y1="13" x2="16" y2="12" transform="rotate(-40,16,22)"/>
+            <line x1="16" y1="13" x2="16" y2="12" transform="rotate(80,16,22)"/>
+            <line x1="16" y1="13" x2="16" y2="12" transform="rotate(-80,16,22)"/>
+          </g>
+        </g>
         <text class="fn">F5</text>
       </g>
       <!-- F6 -->
       <g transform="translate( 338.4, 40.5)">
+        <g class="fnIconScale">
+          <g id="keyboardLightingUp" fill="none" stroke-width="1.5" stroke="black" stroke-linecap="round">
+            <line x1="12" y1="21" x2="20" y2="21"/>
+            <line x1="16" y1="13" x2="16" y2="10"/>
+            <line x1="16" y1="13" x2="16" y2="10" transform="rotate(40,16,22)"/>
+            <line x1="16" y1="13" x2="16" y2="10" transform="rotate(-40,16,22)"/>
+            <line x1="16" y1="13" x2="16" y2="10" transform="rotate(80,16,22)"/>
+            <line x1="16" y1="13" x2="16" y2="10" transform="rotate(-80,16,22)"/>
+          </g>
+        </g>
         <text class="fn">F6</text>
       </g>
       <!-- F7 -->
       <g transform="translate( 389.4, 40.5)">
-        <!-- TODO icon -->
+        <g class="fnIconScale">
+          <g id="fastRewind" fill="black" stroke="none">
+            <path d="M 5,16 l 9,-4.5 l 0,9 z"/>
+            <path d="M 5,16 l 9,-4.5 l 0,9 z" transform="translate(9,0)"/>
+          </g>
+        </g>
         <text class="fn">F7</text>
       </g>
       <!-- F8 -->
       <g transform="translate( 464.3, 40.5)">
-        <!-- TODO icon -->
+        <g class="fnIconScale">
+          <g id="playPause" fill="black" stroke="none">
+            <path d="M 14,16 l -9,-4.5 l 0,9 z"/>
+            <rect x="15" y="11.5" width="3" height="9"/>
+            <rect x="20" y="11.5" width="3" height="9"/>
+          </g>
+        </g>
         <text class="fn">F8</text>
       </g>
       <!-- F9 -->
       <g transform="translate( 515.7, 40.5)">
-        <!-- TODO icon -->
+        <g class="fnIconScale">
+          <g id="fastForward" fill="black" stroke="none">
+            <path d="M 23,16 l -9,-4.5 l 0,9 z"/>
+            <path d="M 23,16 l -9,-4.5 l 0,9 z" transform="translate(-9,0)"/>
+          </g>
+        </g>
         <text class="fn">F9</text>
       </g>
       <!-- F10 -->
       <g transform="translate( 566.5, 40.5)">
-        <!-- TODO icon -->
+        <g class="fnIconScale">
+          <g id="mute" fill="black" stroke="none">
+            <path d="M 7,14 l -2,0 l 0,4 l 2,0 l 5,3 l 0,-10 z"/>
+          </g>
+        </g>
         <text class="fn">F10</text>
       </g>
       <!-- F11 -->
       <g transform="translate( 617.6, 40.5)">
-        <!-- TODO icon -->
+        <g class="fnIconScale">
+          <g id="volumeDown" fill="black" stroke="none">
+            <path d="M 7,14 l -2,0 l 0,4 l 2,0 l 5,3 l 0,-10 z"/>
+            <g fill="none" stroke-width="1.5" stroke="black" stroke-linecap="round">
+              <path d="M 10.5,16
+                       m 4,4
+                       a 6,6 0 0,0 0,-8
+                       "/>
+            </g>
+          </g>
+        </g>
         <text class="fn">F11</text>
       </g>
       <!-- F12 -->
       <g transform="translate( 669.7, 40.5)">
-        <!-- TODO icon -->
+        <g class="fnIconScale">
+          <g id="volumeDown" fill="black" stroke="none">
+            <path d="M 7,14 l -2,0 l 0,4 l 2,0 l 5,3 l 0,-10 z"/>
+            <g fill="none" stroke-width="1.5" stroke="black" stroke-linecap="round">
+              <path d="M 10.5,16
+                       m 4,4
+                       a 6,6 0 0,0 0,-8
+                       "/>
+              <path d="M 10.5,16
+                       m 6,6
+                       a 9,9 0 0,0 0,-12
+                       "/>
+              <path d="M 10.5,16
+                       m 8,8
+                       a 12,12 0 0,0 0,-16
+                       "/>
+            </g>
+          </g>
+        </g>
         <text class="fn">F12</text>
       </g>
       <!-- F13 -->
       <g transform="translate( 867.2, 40.5)">
+        <g class="fnIconScale">
+          <g id="eject" fill="black" stroke="none">
+            <path d="M 12,10 l 6,6 l -12,0 z"/>
+            <rect x="6" y="19" width="12" height="2"/>
+          </g>
+        </g>
         <text class="fn">F13</text>
       </g>
       <!-- F14 -->
@@ -558,12 +692,14 @@
       </g>
       <!-- Delete / Backspace -->
       <g transform="translate( 719.0,102.9)">
-        <text class="functionRight2_0">delete</text>
+        <text class="commandSymbolLeft">⌫</text>
+        <text class="functionLeft">delete</text>
       </g>
 
       <!-- ROW 2 -->
       <!-- Tab -->
       <g transform="translate(  28.7,166.1)">
+        <text class="commandSymbolLeft">⇥</text>
         <text class="functionLeft">tab</text>
       </g>
       <!-- Q -->
@@ -649,6 +785,7 @@
       <!-- ROW 3 -->
       <!-- Caps Lock -->
       <g transform="translate(  29.1,229.1)">
+        <text class="commandSymbolLeft">⇪</text>
         <text class="functionLeft">caps lock</text>
       </g>
       <!-- A -->
@@ -721,13 +858,15 @@
       </g>
       <!-- Return / Enter -->
       <g transform="translate( 706.2,229.1)">
-        <text class="altFunctionRight2_25">enter</text>
-        <text class="functionRight2_25">return</text>
+        <text class="commandSymbolLeft">↩</text>
+        <!-- <text class="altFunctionLeft">enter</text> -->
+        <text class="functionLeft">return</text>
       </g>
 
       <!-- ROW 4 -->
       <!-- Left Shift -->
       <g transform="translate(  29.9,290.9)">
+        <text class="commandSymbolLeft">⇧</text>
         <text class="functionLeft">shift</text>
       </g>
       <!-- Z -->
@@ -794,23 +933,26 @@
       </g>
       <!-- Right Shift -->
       <g transform="translate( 679.0,291.8)">
-        <text class="functionRight2_75">shift</text>
+        <text class="commandSymbolLeft">⇧</text>
+        <text class="functionLeft">shift</text>
       </g>
 
       <!-- ROW 5 -->
       <!-- Left Control -->
       <g transform="translate(  29.2,353.4)">
+        <text class="commandSymbolLeft">⌃</text>
         <text class="functionLeft">control</text>
       </g>
       <!-- Left Alt / Option -->
       <g transform="translate(  93.5,353.4)">
-        <text class="altFunctionLeft">alt</text>
+        <text class="commandSymbolLeft">⌥</text>
+        <!-- <text class="altFunctionLeft">alt</text> -->
         <text class="functionLeft">option</text>
       </g>
       <!-- Left Command -->
       <g transform="translate( 158.3,353.4)">
-        <text class="commandSymbolRight">⌘</text>
-        <text class="functionRight1_25">command</text>
+        <text class="commandSymbolLeft">⌘</text>
+        <text class="functionLeft">command</text>
       </g>
       <!-- Space Bar -->
       <g transform="translate( 225.5,353.6)">
@@ -818,22 +960,24 @@
       </g>
       <!-- Right Command -->
       <g transform="translate( 564.3,353.4)">
-        <text class="commandSymbol">⌘</text>
+        <text class="commandSymbolLeft">⌘</text>
         <text class="functionLeft">command</text>
       </g>
       <!-- Right Alt / Option -->
       <g transform="translate( 629.1,353.4)">
-        <text class="altFunctionRight1_25">alt</text>
-        <text class="functionRight1_25">option</text>
+        <text class="commandSymbolLeft">⌥</text>
+        <!-- <text class="altFunctionLeft">alt</text> -->
+        <text class="functionLeft">option</text>
       </g>
       <!-- Right Function / Menu -->
       <g transform="translate( 693.9,353.4)">
-        <!-- TODO: What to put here? -->
+        <text class="commandSymbolLeft">♬</text>
         <text class="specialKey">¶(/•˅̮•\)⁋</text>
       </g>
       <!-- Right Control -->
       <g transform="translate( 758.4,353.4)">
-        <text class="functionRight1_25">control</text>
+        <text class="commandSymbolLeft">⌃</text>
+        <text class="functionLeft">control</text>
       </g>
 
       <!-- Navigation Keys -->
@@ -843,24 +987,28 @@
       </g>
       <!-- Delete -->
       <g transform="translate( 866.5,167.1)">
-        <text class="altFunctionLeft">del</text>
-        <!-- TODO: Icon? -->
+        <text class="commandSymbolLeft">⌦</text>
+        <text class="functionLeft">delete</text>
       </g>
       <!-- Home -->
       <g transform="translate( 919.5,102.9)">
+        <text class="commandSymbolLeft">↖</text>
         <text class="functionLeft">home</text>
       </g>
       <!-- End -->
       <g transform="translate( 917.6,167.1)">
+        <text class="commandSymbolLeft">↘</text>
         <text class="functionLeft">end</text>
       </g>
       <!-- Page Up -->
       <g transform="translate( 971.8,102.9)">
+        <text class="commandSymbolLeft">⇞</text>
         <text class="functionLeftAbove">page</text>
         <text class="functionLeft">up</text>
       </g>
       <!-- Page Down -->
       <g transform="translate( 969.5,167.1)">
+        <text class="commandSymbolLeft">⇟</text>
         <text class="functionLeftAbove">page</text>
         <text class="functionLeft">down</text>
       </g>
