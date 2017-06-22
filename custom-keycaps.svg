@@ -387,20 +387,22 @@
       <!-- F1 -->
       <g transform="translate(  80.6, 40.5)">
         <g class="fnIconScale">
-          <g id="brightnessDown" fill="none" stroke-width="1.5" stroke="black" stroke-linecap="round">
+          <g id="brightnessDown" fill="none" stroke-width="1" stroke="black" stroke-linecap="round">
             <path d="M 16,16
                      m -4 0
                      a 4,4 0 1,0 8,0
                      a 4,4 0 1,0 -8,0
                      "/>
-            <line x1="25" y1="16" x2="26" y2="16"/>
-            <line x1="25" y1="16" x2="26" y2="16" transform="rotate(45,16,16)"/>
-            <line x1="25" y1="16" x2="26" y2="16" transform="rotate(90,16,16)"/>
-            <line x1="25" y1="16" x2="26" y2="16" transform="rotate(135,16,16)"/>
-            <line x1="25" y1="16" x2="26" y2="16" transform="rotate(180,16,16)"/>
-            <line x1="25" y1="16" x2="26" y2="16" transform="rotate(225,16,16)"/>
-            <line x1="25" y1="16" x2="26" y2="16" transform="rotate(270,16,16)"/>
-            <line x1="25" y1="16" x2="26" y2="16" transform="rotate(315,16,16)"/>
+            <g stroke-width="1.5">
+              <line x1="25" y1="16" x2="26" y2="16"/>
+              <line x1="25" y1="16" x2="26" y2="16" transform="rotate(45,16,16)"/>
+              <line x1="25" y1="16" x2="26" y2="16" transform="rotate(90,16,16)"/>
+              <line x1="25" y1="16" x2="26" y2="16" transform="rotate(135,16,16)"/>
+              <line x1="25" y1="16" x2="26" y2="16" transform="rotate(180,16,16)"/>
+              <line x1="25" y1="16" x2="26" y2="16" transform="rotate(225,16,16)"/>
+              <line x1="25" y1="16" x2="26" y2="16" transform="rotate(270,16,16)"/>
+              <line x1="25" y1="16" x2="26" y2="16" transform="rotate(315,16,16)"/>
+            </g>
           </g>
         </g>
 
@@ -409,20 +411,22 @@
       <!-- F2 -->
       <g transform="translate( 132.5, 40.5)">
         <g class="fnIconScale">
-          <g id="brightnessUp" fill="none" stroke-width="1.5" stroke="black" stroke-linecap="round">
+          <g id="brightnessUp" fill="none" stroke-width="1" stroke="black" stroke-linecap="round">
             <path d="M 16,16
                      m -5 0
                      a 5,5 0 1,0 10,0
                      a 5,5 0 1,0 -10,0
                      "/>
-            <line x1="25" y1="16" x2="28" y2="16"/>
-            <line x1="25" y1="16" x2="28" y2="16" transform="rotate(45,16,16)"/>
-            <line x1="25" y1="16" x2="28" y2="16" transform="rotate(90,16,16)"/>
-            <line x1="25" y1="16" x2="28" y2="16" transform="rotate(135,16,16)"/>
-            <line x1="25" y1="16" x2="28" y2="16" transform="rotate(180,16,16)"/>
-            <line x1="25" y1="16" x2="28" y2="16" transform="rotate(225,16,16)"/>
-            <line x1="25" y1="16" x2="28" y2="16" transform="rotate(270,16,16)"/>
-            <line x1="25" y1="16" x2="28" y2="16" transform="rotate(315,16,16)"/>
+            <g stroke-width="1.5">
+              <line x1="25" y1="16" x2="28" y2="16"/>
+              <line x1="25" y1="16" x2="28" y2="16" transform="rotate(45,16,16)"/>
+              <line x1="25" y1="16" x2="28" y2="16" transform="rotate(90,16,16)"/>
+              <line x1="25" y1="16" x2="28" y2="16" transform="rotate(135,16,16)"/>
+              <line x1="25" y1="16" x2="28" y2="16" transform="rotate(180,16,16)"/>
+              <line x1="25" y1="16" x2="28" y2="16" transform="rotate(225,16,16)"/>
+              <line x1="25" y1="16" x2="28" y2="16" transform="rotate(270,16,16)"/>
+              <line x1="25" y1="16" x2="28" y2="16" transform="rotate(315,16,16)"/>
+            </g>
           </g>
         </g>
         <text class="fn">F2</text>
@@ -557,7 +561,7 @@
       <!-- F13 -->
       <g transform="translate( 867.2, 40.5)">
         <g class="fnIconScale">
-          <g id="eject" fill="black" stroke="none">
+          <g id="eject" fill="none" stroke-width="1" stroke="black" stroke-linecap="round">
             <path d="M 12,10 l 6,6 l -12,0 z"/>
             <rect x="6" y="19" width="12" height="2"/>
           </g>
