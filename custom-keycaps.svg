@@ -18,105 +18,83 @@
     }
 
     .letter {
-      font-family: 'VAGRounded-Light'; font-size: 18px;
+      font-family: 'SF Pro Text';
+      font-size: 16px;
       transform: translate(0px, 29.5px);
     }
     .arrow {
-      font-family: 'VAGRounded-Thin'; font-size: 16px;
-      transform: translate(12.625px, 20.5px); text-anchor: middle;
+      font-family: 'SF Pro Text';
+      font-weight: lighter;
+      font-size: 16px;
+      transform: translate(12.625px, 20.5px);
+      text-anchor: middle;
     }
 
-    .functionLeft, .functionLeftAbove, .functionRight1_25, .functionRight2_0, .functionRight2_25, .functionRight2_75 {
-      font-family: 'VAGRounded-Thin'; font-size: 9.75px;
+    .function, .functionAbove {
+      font-family: 'SF Pro Text';
+      font-weight: lighter;
+      font-size: 9px;
     }
-    .functionLeft {
+    .function {
       transform: translate(0px, 29.5px);
     }
-    .functionLeftAbove {
+    .functionAbove {
       transform: translate(0px, 19.5px);
     }
-    .functionRight1_25 {
-      transform: translate(41.2px, 29.5px); text-anchor: end;
-    }
-    .functionRight2_0 {
-      transform: translate(81.4px, 29.5px); text-anchor: end;
-    }
-    .functionRight2_25 {
-      transform: translate(93.6px, 29.5px); text-anchor: end;
-    }
-    .functionRight2_75 {
-      transform: translate(121.2px, 29.5px); text-anchor: end;
-    }
 
-  	.altFunctionLeft, .altFunctionRight1_25, .altFunctionRight2_25 {
-      font-family: 'VAGRounded-Thin'; font-size: 8px;
-    }
-    .altFunctionLeft {
+  	.altFunction {
+      font-family: 'SF Pro Text';
+      font-weight: lighter;
+      font-size: 8px;
       transform: translate(0px, 9px);
     }
-    .altFunctionRight1_25 {
-      transform: translate(41.2px, 9px); text-anchor: end;
-    }
-    .altFunctionRight2_25 {
-      transform: translate(93.6px, 9px); text-anchor: end;
-    }
 
-    .specialKey {
-      font-family: 'Helvetica'; font-size: 9.75px;
-      transform: translate(0px, 29.5px);
-    }
-
-    .fn {
-      font-family: 'VAGRounded-Thin'; font-size: 9.75px;
+    .specialKey, .fn {
+      font-family: 'SF Pro Text';
+      font-weight: lighter;
+      font-size: 9.5px;
       transform: translate(0px, 29.5px);
     }
     .fnIconScale {
       transform: scale(0.6, 0.6) translate(-3.5px, -3.5px);
     }
 
-    .commandSymbolLeft, .commandSymbolRight1_25, .commandSymbolRight1_5, .commandSymbolRight1_75, .commandSymbolRight2_25 {
-      font-family: 'Helvetica'; font-size: 14px;
-    }
-    .commandSymbolLeft {
+    .commandSymbol {
+      font-family: 'SF Pro Text';
+      font-size: 14px;
       transform: translate(-0.5px, 10.5px);
-    }
-    .commandSymbolRight1_25 {
-      transform: translate(43.0px, 10.5px); text-anchor: end;
-    }
-    .commandSymbolRight1_5 {
-      transform: translate(53.6px, 10.5px); text-anchor: end;
-    }
-    .commandSymbolRight1_75 {
-      transform: translate(68.3px, 10.5px); text-anchor: end;
-    }
-    .commandSymbolRight2_25 {
-      transform: translate(93.6px, 10.5px); text-anchor: end;
     }
 
     .shift, .shiftable {
-      font-family: 'VAGRounded-Light'; font-size: 13px;
+      font-family: 'SF Pro Text';
+      font-size: 13px;
+      text-anchor: middle;
     }
     .shift {
-      transform: translate(4px, 10px); text-anchor: middle;
+      transform: translate(4px, 10px);
     }
     .shiftable {
-      transform: translate(4px, 29.5px); text-anchor: middle;
+      transform: translate(4px, 29.5px);
     }
 
     .alt, .altshift, .alt1_5, .altshift1_5 {
-      font-family: 'Helvetica'; font-size: 7pt; font-style: italic;
+      font-family: 'SF Pro Text';
+      font-weight: lighter;
+      font-size: 10px;
+      font-style: italic;
+      text-anchor: middle;
     }
     .alt {
-      text-anchor: middle; transform: translate(21px, 19px);
+      transform: translate(21px, 19px);
     }
     .altshift {
-      text-anchor: middle; transform: translate(21px, 9px);
+      transform: translate(21px, 9px);
     }
     .alt1_5 {
-      text-anchor: middle; transform: translate(48px, 19px);
+      transform: translate(48px, 19px);
     }
     .altshift1_5 {
-      text-anchor: middle; transform: translate(48px, 9px);
+      transform: translate(48px, 9px);
     }
   </style>
   <defs>
@@ -402,9 +380,9 @@
       <!-- Escape -->
       <g transform="translate(  30.0, 40.5)">
         <g transform="translate(0 2.5)"><!-- Hack to line up circle with icons to the right -->
-          <text class="commandSymbolLeft">⎋</text>
+          <text class="commandSymbol">⎋</text>
         </g>
-        <text class="functionLeft">esc</text>
+        <text class="function">esc</text>
       </g>
       <!-- F1 -->
       <g transform="translate(  80.6, 40.5)">
@@ -455,7 +433,7 @@
           <g id="missionControl" fill="none" stroke-width="1" stroke="black" stroke-linecap="round" stroke-linejoin="round">
             <rect x="5.5" y="10" width="8" height="5"/> 
             <rect x="18.5" y="11" width="7" height="8"/>
-            <rect x="7.5" y="19" width="8" height="3"/>
+            <rect x="7.5" y="18" width="8" height="4"/>
           </g>
         </g>
         <text class="fn">F3</text>
@@ -505,9 +483,9 @@
       <!-- F7 -->
       <g transform="translate( 389.4, 40.5)">
         <g class="fnIconScale">
-          <g id="fastRewind" fill="black" stroke="none">
-            <path d="M 5,16 l 9,-4.5 l 0,9 z"/>
-            <path d="M 5,16 l 9,-4.5 l 0,9 z" transform="translate(9,0)"/>
+          <g id="fastRewind" fill="none" stroke-width="1" stroke="black" stroke-linecap="round">
+            <path d="M -2.5,4.33012701892 L -2.5,-4.33012701892 L 5,0 z" transform="translate(8,16)"/>
+            <path d="M -2.5,4.33012701892 L -2.5,-4.33012701892 L 5,0 z" transform="translate(17,16)"/>
           </g>
         </g>
         <text class="fn">F7</text>
@@ -515,10 +493,10 @@
       <!-- F8 -->
       <g transform="translate( 464.3, 40.5)">
         <g class="fnIconScale">
-          <g id="playPause" fill="black" stroke="none">
-            <path d="M 14,16 l -9,-4.5 l 0,9 z"/>
-            <rect x="15" y="11.5" width="3" height="9"/>
-            <rect x="20" y="11.5" width="3" height="9"/>
+          <g id="playPause" fill="none" stroke-width="1" stroke="black" stroke-linecap="round">
+            <path d="M -2.5,4.33012701892 L -2.5,-4.33012701892 L 5,0 z" transform="translate(8,16)"/>
+            <path d="M 0,-4.33012701892 L 0,4.33012701892" transform="translate(17,16)"/>
+            <path d="M 0,-4.33012701892 L 0,4.33012701892" transform="translate(21,16)"/>
           </g>
         </g>
         <text class="fn">F8</text>
@@ -526,9 +504,9 @@
       <!-- F9 -->
       <g transform="translate( 515.7, 40.5)">
         <g class="fnIconScale">
-          <g id="fastForward" fill="black" stroke="none">
-            <path d="M 23,16 l -9,-4.5 l 0,9 z"/>
-            <path d="M 23,16 l -9,-4.5 l 0,9 z" transform="translate(-9,0)"/>
+          <g id="fastForward" fill="none" stroke-width="1" stroke="black" stroke-linecap="round">
+            <path d="M 2.5,4.33012701892 L 2.5,-4.33012701892 L -5,0 z" transform="translate(10,16)"/>
+            <path d="M 2.5,4.33012701892 L 2.5,-4.33012701892 L -5,0 z" transform="translate(19,16)"/>
           </g>
         </g>
         <text class="fn">F9</text>
@@ -536,7 +514,7 @@
       <!-- F10 -->
       <g transform="translate( 566.5, 40.5)">
         <g class="fnIconScale">
-          <g id="mute" fill="black" stroke="none">
+          <g id="mute" fill="none" stroke-width="1" stroke="black" stroke-linecap="round">
             <path d="M 7,14 l -2,0 l 0,4 l 2,0 l 5,3 l 0,-10 z"/>
           </g>
         </g>
@@ -545,14 +523,12 @@
       <!-- F11 -->
       <g transform="translate( 617.6, 40.5)">
         <g class="fnIconScale">
-          <g id="volumeDown" fill="black" stroke="none">
+          <g id="volumeDown" fill="none" stroke-width="1" stroke="black" stroke-linecap="round">
             <path d="M 7,14 l -2,0 l 0,4 l 2,0 l 5,3 l 0,-10 z"/>
-            <g fill="none" stroke-width="1.5" stroke="black" stroke-linecap="round">
-              <path d="M 10.5,16
-                       m 4,4
-                       a 6,6 0 0,0 0,-8
-                       "/>
-            </g>
+            <path d="M 10.5,16
+                     m 4,4
+                     a 6,6 0 0,0 0,-8
+                     "/>
           </g>
         </g>
         <text class="fn">F11</text>
@@ -560,22 +536,20 @@
       <!-- F12 -->
       <g transform="translate( 669.7, 40.5)">
         <g class="fnIconScale">
-          <g id="volumeDown" fill="black" stroke="none">
+          <g id="volumeDown" fill="none" stroke-width="1" stroke="black" stroke-linecap="round">
             <path d="M 7,14 l -2,0 l 0,4 l 2,0 l 5,3 l 0,-10 z"/>
-            <g fill="none" stroke-width="1.5" stroke="black" stroke-linecap="round">
-              <path d="M 10.5,16
-                       m 4,4
-                       a 6,6 0 0,0 0,-8
-                       "/>
-              <path d="M 10.5,16
-                       m 6,6
-                       a 9,9 0 0,0 0,-12
-                       "/>
-              <path d="M 10.5,16
-                       m 8,8
-                       a 12,12 0 0,0 0,-16
-                       "/>
-            </g>
+            <path d="M 10.5,16
+                     m 4,4
+                     a 6,6 0 0,0 0,-8
+                     "/>
+            <path d="M 10.5,16
+                     m 6,6
+                     a 9,9 0 0,0 0,-12
+                     "/>
+            <path d="M 10.5,16
+                     m 8,8
+                     a 12,12 0 0,0 0,-16
+                     "/>
           </g>
         </g>
         <text class="fn">F12</text>
@@ -692,15 +666,15 @@
       </g>
       <!-- Delete / Backspace -->
       <g transform="translate( 719.0,102.9)">
-        <text class="commandSymbolLeft">⌫</text>
-        <text class="functionLeft">delete</text>
+        <text class="commandSymbol">⌫</text>
+        <text class="function">delete</text>
       </g>
 
       <!-- ROW 2 -->
       <!-- Tab -->
       <g transform="translate(  28.7,166.1)">
-        <text class="commandSymbolLeft">⇥</text>
-        <text class="functionLeft">tab</text>
+        <text class="commandSymbol">⇥</text>
+        <text class="function">tab</text>
       </g>
       <!-- Q -->
       <g transform="translate( 106.9,166.1)">
@@ -734,7 +708,6 @@
       <!-- Y -->
       <g transform="translate( 362.7,166.1)">
         <text class="letter">Y</text>
-        <text class="altshift">¨</text>
         <text class="alt">¥</text>
         <text class="altshift">Á</text>
       </g>
@@ -785,8 +758,8 @@
       <!-- ROW 3 -->
       <!-- Caps Lock -->
       <g transform="translate(  29.1,229.1)">
-        <text class="commandSymbolLeft">⇪</text>
-        <text class="functionLeft">caps lock</text>
+        <text class="commandSymbol">⇪</text>
+        <text class="function">caps lock</text>
       </g>
       <!-- A -->
       <g transform="translate( 121.0,229.1)">
@@ -858,16 +831,16 @@
       </g>
       <!-- Return / Enter -->
       <g transform="translate( 706.2,229.1)">
-        <text class="commandSymbolLeft">↩</text>
-        <!-- <text class="altFunctionLeft">enter</text> -->
-        <text class="functionLeft">return</text>
+        <text class="commandSymbol">↩</text>
+        <!-- <text class="altFunction">enter</text> -->
+        <text class="function">return</text>
       </g>
 
       <!-- ROW 4 -->
       <!-- Left Shift -->
       <g transform="translate(  29.9,290.9)">
-        <text class="commandSymbolLeft">⇧</text>
-        <text class="functionLeft">shift</text>
+        <text class="commandSymbol">⇧</text>
+        <text class="function">shift</text>
       </g>
       <!-- Z -->
       <g transform="translate( 148.3,290.3)">
@@ -933,26 +906,26 @@
       </g>
       <!-- Right Shift -->
       <g transform="translate( 679.0,291.8)">
-        <text class="commandSymbolLeft">⇧</text>
-        <text class="functionLeft">shift</text>
+        <text class="commandSymbol">⇧</text>
+        <text class="function">shift</text>
       </g>
 
       <!-- ROW 5 -->
       <!-- Left Control -->
       <g transform="translate(  29.2,353.4)">
-        <text class="commandSymbolLeft">⌃</text>
-        <text class="functionLeft">control</text>
+        <text class="commandSymbol">⌃</text>
+        <text class="function">control</text>
       </g>
       <!-- Left Alt / Option -->
       <g transform="translate(  93.5,353.4)">
-        <text class="commandSymbolLeft">⌥</text>
-        <!-- <text class="altFunctionLeft">alt</text> -->
-        <text class="functionLeft">option</text>
+        <text class="commandSymbol">⌥</text>
+        <!-- <text class="altFunction">alt</text> -->
+        <text class="function">option</text>
       </g>
       <!-- Left Command -->
       <g transform="translate( 158.3,353.4)">
-        <text class="commandSymbolLeft">⌘</text>
-        <text class="functionLeft">command</text>
+        <text class="commandSymbol">⌘</text>
+        <text class="function">command</text>
       </g>
       <!-- Space Bar -->
       <g transform="translate( 225.5,353.6)">
@@ -960,75 +933,75 @@
       </g>
       <!-- Right Command -->
       <g transform="translate( 564.3,353.4)">
-        <text class="commandSymbolLeft">⌘</text>
-        <text class="functionLeft">command</text>
+        <text class="commandSymbol">⌘</text>
+        <text class="function">command</text>
       </g>
       <!-- Right Alt / Option -->
       <g transform="translate( 629.1,353.4)">
-        <text class="commandSymbolLeft">⌥</text>
-        <!-- <text class="altFunctionLeft">alt</text> -->
-        <text class="functionLeft">option</text>
+        <text class="commandSymbol">⌥</text>
+        <!-- <text class="altFunction">alt</text> -->
+        <text class="function">option</text>
       </g>
       <!-- Right Function / Menu -->
       <g transform="translate( 693.9,353.4)">
-        <text class="commandSymbolLeft">♬</text>
+        <text class="commandSymbol">♬</text>
         <text class="specialKey">¶(/•˅̮•\)⁋</text>
       </g>
       <!-- Right Control -->
       <g transform="translate( 758.4,353.4)">
-        <text class="commandSymbolLeft">⌃</text>
-        <text class="functionLeft">control</text>
+        <text class="commandSymbol">⌃</text>
+        <text class="function">control</text>
       </g>
 
       <!-- Navigation Keys -->
       <!-- Insert -->
       <g transform="translate( 867.1,102.9)">
-        <text class="functionLeft">help</text>
+        <text class="function">help</text>
       </g>
       <!-- Delete -->
       <g transform="translate( 866.5,167.1)">
-        <text class="commandSymbolLeft">⌦</text>
-        <text class="functionLeft">delete</text>
+        <text class="commandSymbol">⌦</text>
+        <text class="function">delete</text>
       </g>
       <!-- Home -->
       <g transform="translate( 919.5,102.9)">
-        <text class="commandSymbolLeft">↖</text>
-        <text class="functionLeft">home</text>
+        <text class="commandSymbol">↖</text>
+        <text class="function">home</text>
       </g>
       <!-- End -->
       <g transform="translate( 917.6,167.1)">
-        <text class="commandSymbolLeft">↘</text>
-        <text class="functionLeft">end</text>
+        <text class="commandSymbol">↘</text>
+        <text class="function">end</text>
       </g>
       <!-- Page Up -->
       <g transform="translate( 971.8,102.9)">
-        <text class="commandSymbolLeft">⇞</text>
-        <text class="functionLeftAbove">page</text>
-        <text class="functionLeft">up</text>
+        <text class="commandSymbol">⇞</text>
+        <text class="functionAbove">page</text>
+        <text class="function">up</text>
       </g>
       <!-- Page Down -->
       <g transform="translate( 969.5,167.1)">
-        <text class="commandSymbolLeft">⇟</text>
-        <text class="functionLeftAbove">page</text>
-        <text class="functionLeft">down</text>
+        <text class="commandSymbol">⇟</text>
+        <text class="functionAbove">page</text>
+        <text class="function">down</text>
       </g>
 
       <!-- Arrow Keys -->
       <!-- Up Arrow -->
       <g transform="translate( 867.0,292.2)">
-        <text class="arrow">↑</text>
+        <text class="arrow">⇡</text>
       </g>
       <!-- Left Arrow -->
       <g transform="translate( 867.1,354.9)">
-        <text class="arrow">←</text>
+        <text class="arrow">⇠</text>
       </g>
       <!-- Down Arrow -->
       <g transform="translate( 918.9,354.9)">
-        <text class="arrow">↓</text>
+        <text class="arrow">⇣</text>
       </g>
       <!-- Right Arrow -->
       <g transform="translate( 970.6,354.9)">
-        <text class="arrow">→</text>
+        <text class="arrow">⇢</text>
       </g>
 
       <!-- Number Pad -->
