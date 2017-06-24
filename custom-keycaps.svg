@@ -3,9 +3,7 @@
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
      xmlns:xlink="http://www.w3.org/1999/xlink"
      xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-     x="0px" y="0px"
-	   viewBox="0 0 1281.3 478.6"
-     style="enable-background: new 0 0 1281.3 478.6;"
+	   width="1281.3" height="478.6"
      xml:space="preserve">
   <style type="text/css">
 
@@ -102,6 +100,14 @@
     }
     .altshift1_5 {
       transform: translate(48px, 9px);
+    }
+
+    .mediaIcon {
+      fill: none;
+      stroke: black;
+      stroke-width: 1;
+      stroke-linecap: round;
+      stroke-linejoin: round;
     }
   </style>
   <defs>
@@ -394,7 +400,7 @@
       <!-- F1 -->
       <g transform="translate(  80.6, 40.5)">
         <g class="fnIconScale">
-          <g id="brightnessDown" fill="none" stroke-width="1" stroke="black" stroke-linecap="round">
+          <g id="brightnessDown" class="mediaIcon">
             <path d="M 16,16
                      m -4 0
                      a 4,4 0 1,0 8,0
@@ -418,7 +424,7 @@
       <!-- F2 -->
       <g transform="translate( 132.5, 40.5)">
         <g class="fnIconScale">
-          <g id="brightnessUp" fill="none" stroke-width="1" stroke="black" stroke-linecap="round">
+          <g id="brightnessUp" class="mediaIcon">
             <path d="M 16,16
                      m -5 0
                      a 5,5 0 1,0 10,0
@@ -441,7 +447,7 @@
       <!-- F3 -->
       <g transform="translate( 184.0, 40.5)">
         <g class="fnIconScale">
-          <g id="missionControl" fill="none" stroke-width="1" stroke="black" stroke-linecap="round" stroke-linejoin="round">
+          <g id="missionControl" class="mediaIcon">
             <rect x="5.5" y="10" width="8" height="5"/> 
             <rect x="18.5" y="11" width="7" height="8"/>
             <rect x="7.5" y="18" width="8" height="4"/>
@@ -452,7 +458,7 @@
       <!-- F4 -->
       <g transform="translate( 235.0, 40.5)">
         <g class="fnIconScale">
-          <g id="launchpad" fill="none" stroke-width="1" stroke="black" stroke-linecap="round" stroke-linejoin="round">
+          <g id="launchpad" class="mediaIcon">
             <rect x="5.5" y="10" width="5" height="5"/>
             <rect x="13.5" y="10" width="5" height="5"/>
             <rect x="21.5" y="10" width="5" height="5"/>
@@ -466,7 +472,7 @@
       <!-- F5 -->
       <g transform="translate( 286.3, 40.5)">
         <g class="fnIconScale">
-          <g id="keyboardLightingDown" fill="none" stroke-width="1.5" stroke="black" stroke-linecap="round">
+          <g id="keyboardLightingDown" class="mediaIcon" stroke-width="1.5">
             <line x1="12" y1="21" x2="20" y2="21"/>
             <line x1="16" y1="13" x2="16" y2="12"/>
             <line x1="16" y1="13" x2="16" y2="12" transform="rotate(40,16,22)"/>
@@ -480,7 +486,7 @@
       <!-- F6 -->
       <g transform="translate( 338.4, 40.5)">
         <g class="fnIconScale">
-          <g id="keyboardLightingUp" fill="none" stroke-width="1.5" stroke="black" stroke-linecap="round">
+          <g id="keyboardLightingUp" class="mediaIcon" stroke-width="1.5">
             <line x1="12" y1="21" x2="20" y2="21"/>
             <line x1="16" y1="13" x2="16" y2="10"/>
             <line x1="16" y1="13" x2="16" y2="10" transform="rotate(40,16,22)"/>
@@ -494,7 +500,7 @@
       <!-- F7 -->
       <g transform="translate( 389.4, 40.5)">
         <g class="fnIconScale">
-          <g id="fastRewind" fill="none" stroke-width="1" stroke="black" stroke-linecap="round">
+          <g id="fastRewind" class="mediaIcon">
             <path d="M -2.5,4.33012701892 L -2.5,-4.33012701892 L 5,0 z" transform="translate(8,16)"/>
             <path d="M -2.5,4.33012701892 L -2.5,-4.33012701892 L 5,0 z" transform="translate(17,16)"/>
           </g>
@@ -504,7 +510,7 @@
       <!-- F8 -->
       <g transform="translate( 464.3, 40.5)">
         <g class="fnIconScale">
-          <g id="playPause" fill="none" stroke-width="1" stroke="black" stroke-linecap="round">
+          <g id="playPause" class="mediaIcon">
             <path d="M -2.5,4.33012701892 L -2.5,-4.33012701892 L 5,0 z" transform="translate(8,16)"/>
             <path d="M 0,-4.33012701892 L 0,4.33012701892" transform="translate(17,16)"/>
             <path d="M 0,-4.33012701892 L 0,4.33012701892" transform="translate(21,16)"/>
@@ -515,7 +521,7 @@
       <!-- F9 -->
       <g transform="translate( 515.7, 40.5)">
         <g class="fnIconScale">
-          <g id="fastForward" fill="none" stroke-width="1" stroke="black" stroke-linecap="round">
+          <g id="fastForward" class="mediaIcon">
             <path d="M 2.5,4.33012701892 L 2.5,-4.33012701892 L -5,0 z" transform="translate(10,16)"/>
             <path d="M 2.5,4.33012701892 L 2.5,-4.33012701892 L -5,0 z" transform="translate(19,16)"/>
           </g>
@@ -525,7 +531,7 @@
       <!-- F10 -->
       <g transform="translate( 566.5, 40.5)">
         <g class="fnIconScale">
-          <g id="mute" fill="none" stroke-width="1" stroke="black" stroke-linecap="round">
+          <g id="mute" class="mediaIcon">
             <path d="M 7,14 l -2,0 l 0,4 l 2,0 l 5,3 l 0,-10 z"/>
           </g>
         </g>
@@ -534,7 +540,7 @@
       <!-- F11 -->
       <g transform="translate( 617.6, 40.5)">
         <g class="fnIconScale">
-          <g id="volumeDown" fill="none" stroke-width="1" stroke="black" stroke-linecap="round">
+          <g id="volumeDown" class="mediaIcon">
             <path d="M 7,14 l -2,0 l 0,4 l 2,0 l 5,3 l 0,-10 z"/>
             <path d="M 10.5,16
                      m 4,4
@@ -547,7 +553,7 @@
       <!-- F12 -->
       <g transform="translate( 669.7, 40.5)">
         <g class="fnIconScale">
-          <g id="volumeDown" fill="none" stroke-width="1" stroke="black" stroke-linecap="round">
+          <g id="volumeUp" class="mediaIcon">
             <path d="M 7,14 l -2,0 l 0,4 l 2,0 l 5,3 l 0,-10 z"/>
             <path d="M 10.5,16
                      m 4,4
@@ -568,7 +574,7 @@
       <!-- F13 -->
       <g transform="translate( 867.2, 40.5)">
         <g class="fnIconScale">
-          <g id="eject" fill="none" stroke-width="1" stroke="black" stroke-linecap="round">
+          <g id="eject" class="mediaIcon">
             <path d="M 12,10 l 6,6 l -12,0 z"/>
             <rect x="6" y="19" width="12" height="2"/>
           </g>
