@@ -472,13 +472,15 @@
       <!-- F5 -->
       <g transform="translate( 286.3, 40.5)">
         <g class="fnIconScale">
-          <g id="keyboardLightingDown" class="mediaIcon" stroke-width="1.5">
+          <g id="keyboardLightingDown" class="mediaIcon">
             <line x1="12" y1="21" x2="20" y2="21"/>
-            <line x1="16" y1="13" x2="16" y2="12"/>
-            <line x1="16" y1="13" x2="16" y2="12" transform="rotate(40,16,22)"/>
-            <line x1="16" y1="13" x2="16" y2="12" transform="rotate(-40,16,22)"/>
-            <line x1="16" y1="13" x2="16" y2="12" transform="rotate(80,16,22)"/>
-            <line x1="16" y1="13" x2="16" y2="12" transform="rotate(-80,16,22)"/>
+            <g stroke-width="1.5">
+              <line x1="16" y1="13" x2="16" y2="12"/>
+              <line x1="16" y1="13" x2="16" y2="12" transform="rotate(40,16,22)"/>
+              <line x1="16" y1="13" x2="16" y2="12" transform="rotate(-40,16,22)"/>
+              <line x1="16" y1="13" x2="16" y2="12" transform="rotate(80,16,22)"/>
+              <line x1="16" y1="13" x2="16" y2="12" transform="rotate(-80,16,22)"/>
+            </g>
           </g>
         </g>
         <text class="fn">F5</text>
@@ -486,13 +488,15 @@
       <!-- F6 -->
       <g transform="translate( 338.4, 40.5)">
         <g class="fnIconScale">
-          <g id="keyboardLightingUp" class="mediaIcon" stroke-width="1.5">
+          <g id="keyboardLightingUp" class="mediaIcon">
             <line x1="12" y1="21" x2="20" y2="21"/>
-            <line x1="16" y1="13" x2="16" y2="10"/>
-            <line x1="16" y1="13" x2="16" y2="10" transform="rotate(40,16,22)"/>
-            <line x1="16" y1="13" x2="16" y2="10" transform="rotate(-40,16,22)"/>
-            <line x1="16" y1="13" x2="16" y2="10" transform="rotate(80,16,22)"/>
-            <line x1="16" y1="13" x2="16" y2="10" transform="rotate(-80,16,22)"/>
+            <g stroke-width="1.5">
+              <line x1="16" y1="13" x2="16" y2="10"/>
+              <line x1="16" y1="13" x2="16" y2="10" transform="rotate(40,16,22)"/>
+              <line x1="16" y1="13" x2="16" y2="10" transform="rotate(-40,16,22)"/>
+              <line x1="16" y1="13" x2="16" y2="10" transform="rotate(80,16,22)"/>
+              <line x1="16" y1="13" x2="16" y2="10" transform="rotate(-80,16,22)"/>
+            </g>
           </g>
         </g>
         <text class="fn">F6</text>
