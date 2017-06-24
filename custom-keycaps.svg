@@ -10,11 +10,18 @@
   <style type="text/css">
 
     .keyBorder {
-      fill: none; stroke: #000000; stroke-width:0.2552; stroke-linecap: round; stroke-linejoin: round;
+      fill: none;
+      stroke: black;
+      stroke-width: 0.2552;
+      stroke-linecap: round;
+      stroke-linejoin: round;
     }
 
     .grid {
-      fill: none; stroke: black; stroke-width: 7.508665e-02; stroke-miterlimit: 2;
+      fill: none;
+      stroke: black;
+      stroke-width: 0.07508665;
+      stroke-miterlimit: 2;
     }
 
     .letter {
