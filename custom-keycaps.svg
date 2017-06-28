@@ -25,7 +25,7 @@
     .letter {
       font-family: 'SF Pro Text';
       font-size: 16px;
-      transform: translate(0px, 29.5px);
+      transform: translate(-1px, 29.5px);
     }
     .arrow {
       font-family: 'SF Pro Text';
@@ -41,10 +41,10 @@
       font-size: 9px;
     }
     .function {
-      transform: translate(0px, 29.5px);
+      transform: translate(-0.5px, 29.5px);
     }
     .functionAbove {
-      transform: translate(0px, 19.5px);
+      transform: translate(-0.5px, 19.5px);
     }
 
   	.altFunction {
@@ -58,7 +58,7 @@
       font-family: 'SF Pro Text';
       font-weight: lighter;
       font-size: 9.5px;
-      transform: translate(0px, 29.5px);
+      transform: translate(-0.5px, 29.5px);
     }
     .fnIconScale {
       transform: scale(0.6, 0.6) translate(-3.5px, -3.5px);
@@ -67,7 +67,7 @@
     .commandSymbol {
       font-family: 'SF Pro Text';
       font-size: 14px;
-      transform: translate(-0.5px, 10.5px);
+      transform: translate(-1px, 10.5px);
     }
 
     .shift, .shiftable {
@@ -76,10 +76,10 @@
       text-anchor: middle;
     }
     .shift {
-      transform: translate(4px, 10px);
+      transform: translate(4.5px, 10px);
     }
     .shiftable {
-      transform: translate(4px, 29.5px);
+      transform: translate(4.5px, 29.5px);
     }
 
     .alt, .altshift, .alt1_5, .altshift1_5 {
@@ -104,10 +104,14 @@
 
     .mediaIcon {
       fill: none;
-      stroke: black;
+      stroke: lightGray;
       stroke-width: 1;
       stroke-linecap: round;
       stroke-linejoin: round;
+    }
+    .mediaIcon {
+      fill: black;
+      stroke: none;
     }
   </style>
   <defs>
@@ -400,22 +404,30 @@
       <!-- F1 -->
       <g transform="translate(  80.6, 40.5)">
         <g class="fnIconScale">
-          <g id="brightnessDown" class="mediaIcon">
+          <g id="brightnessDown" class="mediaIcon" transform="translate(-1,0)">
             <path d="M 16,16
-                     m -4 0
-                     a 4,4 0 1,0 8,0
-                     a 4,4 0 1,0 -8,0
+                     m -4.5 0
+                     a 4.5,4.5 0 1,0 9,0
+                     a 4.5,4.5 0 1,0 -9,0
+                     M 16,16
+                     m -3.5 0
+                     a 3.5,3.5 0 1,1 7,0
+                     a 3.5,3.5 0 1,1 -7,0
                      "/>
-            <g stroke-width="1.5">
-              <line x1="25" y1="16" x2="26" y2="16"/>
-              <line x1="25" y1="16" x2="26" y2="16" transform="rotate(45,16,16)"/>
-              <line x1="25" y1="16" x2="26" y2="16" transform="rotate(90,16,16)"/>
-              <line x1="25" y1="16" x2="26" y2="16" transform="rotate(135,16,16)"/>
-              <line x1="25" y1="16" x2="26" y2="16" transform="rotate(180,16,16)"/>
-              <line x1="25" y1="16" x2="26" y2="16" transform="rotate(225,16,16)"/>
-              <line x1="25" y1="16" x2="26" y2="16" transform="rotate(270,16,16)"/>
-              <line x1="25" y1="16" x2="26" y2="16" transform="rotate(315,16,16)"/>
-            </g>
+            <path id="brightnessDownSpoke"
+                  d="M 25,16
+                     m 0,-0.75
+                     a 0.75,0.75 0 1,0 0,1.5
+                     l 1,0
+                     a 0.75,0.75 0 1,0 0,-1.5
+                     z"/>
+            <use href="#brightnessDownSpoke" transform="rotate(45,16,16)"/>
+            <use href="#brightnessDownSpoke" transform="rotate(90,16,16)"/>
+            <use href="#brightnessDownSpoke" transform="rotate(135,16,16)"/>
+            <use href="#brightnessDownSpoke" transform="rotate(180,16,16)"/>
+            <use href="#brightnessDownSpoke" transform="rotate(225,16,16)"/>
+            <use href="#brightnessDownSpoke" transform="rotate(270,16,16)"/>
+            <use href="#brightnessDownSpoke" transform="rotate(315,16,16)"/>
           </g>
         </g>
 
@@ -426,20 +438,27 @@
         <g class="fnIconScale">
           <g id="brightnessUp" class="mediaIcon">
             <path d="M 16,16
-                     m -5 0
-                     a 5,5 0 1,0 10,0
-                     a 5,5 0 1,0 -10,0
-                     "/>
-            <g stroke-width="1.5">
-              <line x1="25" y1="16" x2="28" y2="16"/>
-              <line x1="25" y1="16" x2="28" y2="16" transform="rotate(45,16,16)"/>
-              <line x1="25" y1="16" x2="28" y2="16" transform="rotate(90,16,16)"/>
-              <line x1="25" y1="16" x2="28" y2="16" transform="rotate(135,16,16)"/>
-              <line x1="25" y1="16" x2="28" y2="16" transform="rotate(180,16,16)"/>
-              <line x1="25" y1="16" x2="28" y2="16" transform="rotate(225,16,16)"/>
-              <line x1="25" y1="16" x2="28" y2="16" transform="rotate(270,16,16)"/>
-              <line x1="25" y1="16" x2="28" y2="16" transform="rotate(315,16,16)"/>
-            </g>
+                     m -5.5,0
+                     a 5.5,5.5 0 1,0 11,0
+                     a 5.5,5.5 0 1,0 -11,0
+                     M 16,16
+                     m -4.5,0
+                     a 4.5,4.5 0 1,1 9,0
+                     a 4.5,4.5 0 1,1 -9,0"/>
+            <path id="brightnessUpSpoke"
+                  d="M 25,16
+                     m 0,-0.75
+                     a 0.75,0.75 0 1,0 0,1.5
+                     l 3,0
+                     a 0.75,0.75 0 1,0 0,-1.5
+                     z"/>
+            <use href="#brightnessUpSpoke" transform="rotate(45,16,16)"/>
+            <use href="#brightnessUpSpoke" transform="rotate(90,16,16)"/>
+            <use href="#brightnessUpSpoke" transform="rotate(135,16,16)"/>
+            <use href="#brightnessUpSpoke" transform="rotate(180,16,16)"/>
+            <use href="#brightnessUpSpoke" transform="rotate(225,16,16)"/>
+            <use href="#brightnessUpSpoke" transform="rotate(270,16,16)"/>
+            <use href="#brightnessUpSpoke" transform="rotate(315,16,16)"/>
           </g>
         </g>
         <text class="fn">F2</text>
@@ -447,10 +466,55 @@
       <!-- F3 -->
       <g transform="translate( 184.0, 40.5)">
         <g class="fnIconScale">
-          <g id="missionControl" class="mediaIcon">
-            <rect x="5.5" y="10" width="8" height="5"/> 
-            <rect x="18.5" y="11" width="7" height="8"/>
-            <rect x="7.5" y="18" width="8" height="4"/>
+          <g id="missionControl" class="mediaIcon" transform="translate(-1,0)">
+            <path d="M 5.5,10
+                     m 0,-0.5
+                     a 0.5,0.5 0 0,0 -0.5,0.5
+                     l 0,5
+                     a 0.5,0.5 0 0,0 0.5,0.5
+                     l 8,0
+                     a 0.5,0.5 0 0,0 0.5,-0.5
+                     l 0,-5
+                     a 0.5,0.5 0 0,0 -0.5,-0.5
+                     z
+                     M 5.5,10
+                     m 0.5,0.5
+                     l 7,0
+                     l 0,4
+                     l -7,0
+                     z"/>
+            <path d="M 18.5,11
+                     m 0,-0.5
+                     a 0.5,0.5 0 0,0 -0.5,0.5
+                     l 0,8
+                     a 0.5,0.5 0 0,0 0.5,0.5
+                     l 7,0
+                     a 0.5,0.5 0 0,0 0.5,-0.5
+                     l 0,-8
+                     a 0.5,0.5 0 0,0 -0.5,-0.5
+                     z
+                     M 18.5,11
+                     m 0.5,0.5
+                     l 6,0
+                     l 0,7
+                     l -6,0
+                     z"/>
+            <path d="M 7.5,18
+                     m 0,-0.5
+                     a 0.5,0.5 0 0,0 -0.5,0.5
+                     l 0,4
+                     a 0.5,0.5 0 0,0 0.5,0.5
+                     l 8,0
+                     a 0.5,0.5 0 0,0 0.5,-0.5
+                     l 0,-4
+                     a 0.5,0.5 0 0,0 -0.5,-0.5
+                     z
+                     M 7.5,18
+                     m 0.5,0.5
+                     l 7,0
+                     l 0,3
+                     l -7,0
+                     z"/>
           </g>
         </g>
         <text class="fn">F3</text>
@@ -458,13 +522,30 @@
       <!-- F4 -->
       <g transform="translate( 235.0, 40.5)">
         <g class="fnIconScale">
-          <g id="launchpad" class="mediaIcon">
-            <rect x="5.5" y="10" width="5" height="5"/>
-            <rect x="13.5" y="10" width="5" height="5"/>
-            <rect x="21.5" y="10" width="5" height="5"/>
-            <rect x="5.5" y="18" width="5" height="5"/>
-            <rect x="13.5" y="18" width="5" height="5"/>
-            <rect x="21.5" y="18" width="5" height="5"/>
+          <g id="launchpad" class="mediaIcon" transform="translate(-1,0)">
+            <path id="launchpadRect"
+                  d="M 5.5,10
+                     m 0,-0.5
+                     a 0.5,0.5 0 0,0 -0.5,0.5
+                     l 0,5
+                     a 0.5,0.5 0 0,0 0.5,0.5
+                     l 5,0
+                     a 0.5,0.5 0 0,0 0.5,-0.5
+                     l 0,-5
+                     a 0.5,0.5 0 0,0 -0.5,-0.5
+                     z
+                     M 5.5,10
+                     m 0.5,0.5
+                     l 4,0
+                     l 0,4
+                     l -4,0
+                     z
+                     "/>
+            <use href="#launchpadRect" transform="translate(8,0)"/>
+            <use href="#launchpadRect" transform="translate(16,0)"/>
+            <use href="#launchpadRect" transform="translate(0,8)"/>
+            <use href="#launchpadRect" transform="translate(8,8)"/>
+            <use href="#launchpadRect" transform="translate(16,8)"/>
           </g>
         </g>
         <text class="fn">F4</text>
@@ -472,15 +553,24 @@
       <!-- F5 -->
       <g transform="translate( 286.3, 40.5)">
         <g class="fnIconScale">
-          <g id="keyboardLightingDown" class="mediaIcon">
-            <line x1="12" y1="21" x2="20" y2="21"/>
-            <g stroke-width="1.5">
-              <line x1="16" y1="13" x2="16" y2="12"/>
-              <line x1="16" y1="13" x2="16" y2="12" transform="rotate(40,16,22)"/>
-              <line x1="16" y1="13" x2="16" y2="12" transform="rotate(-40,16,22)"/>
-              <line x1="16" y1="13" x2="16" y2="12" transform="rotate(80,16,22)"/>
-              <line x1="16" y1="13" x2="16" y2="12" transform="rotate(-80,16,22)"/>
-            </g>
+          <g id="keyboardLightingDown" class="mediaIcon" transform="translate(-1,0)">
+            <path d="M 12,21
+                     m 0,-0.5
+                     a 0.5,0.5 0 1,0 0,1
+                     l 8,0
+                     a 0.5,0.5 0 1,0 0,-1
+                     z"/>
+            <path id="keyboardLightingDownSpoke"
+                  d="M 16,12
+                     m 0.75,0
+                     a 0.75,0.75 0 1,0 -1.5,0
+                     l 0,1
+                     a 0.75,0.75 0 1,0 1.5,0
+                     z"/>
+            <use href="#keyboardLightingDownSpoke" transform="rotate(40,16,22)"/>
+            <use href="#keyboardLightingDownSpoke" transform="rotate(-40,16,22)"/>
+            <use href="#keyboardLightingDownSpoke" transform="rotate(80,16,22)"/>
+            <use href="#keyboardLightingDownSpoke" transform="rotate(-80,16,22)"/>
           </g>
         </g>
         <text class="fn">F5</text>
@@ -489,14 +579,23 @@
       <g transform="translate( 338.4, 40.5)">
         <g class="fnIconScale">
           <g id="keyboardLightingUp" class="mediaIcon">
-            <line x1="12" y1="21" x2="20" y2="21"/>
-            <g stroke-width="1.5">
-              <line x1="16" y1="13" x2="16" y2="10"/>
-              <line x1="16" y1="13" x2="16" y2="10" transform="rotate(40,16,22)"/>
-              <line x1="16" y1="13" x2="16" y2="10" transform="rotate(-40,16,22)"/>
-              <line x1="16" y1="13" x2="16" y2="10" transform="rotate(80,16,22)"/>
-              <line x1="16" y1="13" x2="16" y2="10" transform="rotate(-80,16,22)"/>
-            </g>
+            <path d="M 12,21
+                     m 0,-0.5
+                     a 0.5,0.5 0 1,0 0,1
+                     l 8,0
+                     a 0.5,0.5 0 1,0 0,-1
+                     z"/>
+            <path id="keyboardLightingUpSpoke"
+                  d="M 16,10
+                     m 0.75,0
+                     a 0.75,0.75 0 1,0 -1.5,0
+                     l 0,3
+                     a 0.75,0.75 0 1,0 1.5,0
+                     z"/>
+            <use href="#keyboardLightingUpSpoke" transform="rotate(40,16,22)"/>
+            <use href="#keyboardLightingUpSpoke" transform="rotate(-40,16,22)"/>
+            <use href="#keyboardLightingUpSpoke" transform="rotate(80,16,22)"/>
+            <use href="#keyboardLightingUpSpoke" transform="rotate(-80,16,22)"/>
           </g>
         </g>
         <text class="fn">F6</text>
@@ -504,9 +603,21 @@
       <!-- F7 -->
       <g transform="translate( 389.4, 40.5)">
         <g class="fnIconScale">
-          <g id="fastRewind" class="mediaIcon">
-            <path d="M -2.5,4.33012701892 L -2.5,-4.33012701892 L 5,0 z" transform="translate(8,16)"/>
-            <path d="M -2.5,4.33012701892 L -2.5,-4.33012701892 L 5,0 z" transform="translate(17,16)"/>
+          <g id="fastRewind" class="mediaIcon" transform="translate(-1,0)">
+            <path id="playIcon"
+                  d="M 5.5,11.6698729811
+                     m 0.25,-0.43301270189
+                     a 0.5,0.5 0 0,0 -0.75,0.43301270189
+                     l 0,8.66025403784
+                     a 0.5,0.5 0 0,0 0.75,0.43301270189
+                     l 7.5,-4.33012701892
+                     a 0.5,0.5 0 0,0 0,-0.866025403784
+                     z
+                     M 6.0,12.2472232503
+                     L 12.23623738417,16
+                     L 6.0,19.75277674973
+                     z"/>
+            <use href="#playIcon" transform="translate(9,0)"/>
           </g>
         </g>
         <text class="fn">F7</text>
@@ -514,10 +625,16 @@
       <!-- F8 -->
       <g transform="translate( 464.3, 40.5)">
         <g class="fnIconScale">
-          <g id="playPause" class="mediaIcon">
-            <path d="M -2.5,4.33012701892 L -2.5,-4.33012701892 L 5,0 z" transform="translate(8,16)"/>
-            <path d="M 0,-4.33012701892 L 0,4.33012701892" transform="translate(17,16)"/>
-            <path d="M 0,-4.33012701892 L 0,4.33012701892" transform="translate(21,16)"/>
+          <g id="playPause" class="mediaIcon" transform="translate(-1,0)">
+            <use href="#playIcon"/>
+            <path id="pauseBar"
+                  d="M 0,-4.33012701892
+                     m 0.5,0
+                     a 0.5,0.5 0 1,0 -1,0
+                     l 0,8.66025403784
+                     a 0.5,0.5 0 1,0 1,0
+                     z" transform="translate(17,16)"/>
+            <use href="#pauseBar" transform="translate(4,0)"/>
           </g>
         </g>
         <text class="fn">F8</text>
@@ -525,9 +642,9 @@
       <!-- F9 -->
       <g transform="translate( 515.7, 40.5)">
         <g class="fnIconScale">
-          <g id="fastForward" class="mediaIcon">
-            <path d="M 2.5,4.33012701892 L 2.5,-4.33012701892 L -5,0 z" transform="translate(10,16)"/>
-            <path d="M 2.5,4.33012701892 L 2.5,-4.33012701892 L -5,0 z" transform="translate(19,16)"/>
+          <g id="fastForward" class="mediaIcon" transform="translate(-0.5,0)">
+            <use href="#playIcon" transform="translate(26.5,0) scale(-1,1)"/>
+            <use href="#playIcon" transform="translate(26.5,0) scale(-1,1) translate(9,0)"/>
           </g>
         </g>
         <text class="fn">F9</text>
@@ -535,8 +652,31 @@
       <!-- F10 -->
       <g transform="translate( 566.5, 40.5)">
         <g class="fnIconScale">
-          <g id="mute" class="mediaIcon">
-            <path d="M 7,14 l -2,0 l 0,4 l 2,0 l 5,3 l 0,-10 z"/>
+          <g id="mute" class="mediaIcon" transform="translate(-0.5,0)">
+            <path id="speakerIcon"
+                  d="M 7,14
+                     m 0,-0.5
+                     l -2,0
+                     a 0.5,0.5 0 0,0 -0.5,0.5
+                     l 0,4
+                     a 0.5,0.5 0 0,0 0.5,0.5
+                     l 2,0
+                     l 5,3
+                     A 0.5,0.5 0 0,0 12.5,21
+                     l 0,-10
+                     A 0.5,0.5 0 0,0 11.7427521225,10.571253537
+                     z
+                     M 7,15
+                     m 0,-0.5
+                     a 0.5,0.5 0 0,0 0.42874646285,-0.25724787771
+                     L 11.5,12
+                     L 11.5,20
+                     L 7.42874646285,17.75724787771
+                     A 0.5,0.5 0 0,0 7,17.5
+                     l -1.5,0
+                     l 0,-3
+                     z
+                     "/>
           </g>
         </g>
         <text class="fn">F10</text>
@@ -544,11 +684,14 @@
       <!-- F11 -->
       <g transform="translate( 617.6, 40.5)">
         <g class="fnIconScale">
-          <g id="volumeDown" class="mediaIcon">
-            <path d="M 7,14 l -2,0 l 0,4 l 2,0 l 5,3 l 0,-10 z"/>
+          <g id="volumeDown" class="mediaIcon" transform="translate(-0.5,0)">
+            <use href="#speakerIcon"/>
             <path d="M 10.5,16
-                     m 4,4
-                     a 6,6 0 0,0 0,-8
+                     m 3.64644660941,-3.64644660941
+                     a 5.5,5.5 0 0,1 0,7.29289321882
+                     a 0.5,0.5 0 1,0 0.70710678118,0.70710678118
+                     a 6.5,6.5 0 0,0 0,-8.70710678118
+                     a 0.5,0.5 0 1,0 -0.70710678118,0.70710678118
                      "/>
           </g>
         </g>
@@ -557,19 +700,28 @@
       <!-- F12 -->
       <g transform="translate( 669.7, 40.5)">
         <g class="fnIconScale">
-          <g id="volumeUp" class="mediaIcon">
-            <path d="M 7,14 l -2,0 l 0,4 l 2,0 l 5,3 l 0,-10 z"/>
+          <g id="volumeDown" class="mediaIcon" transform="translate(-0.5,0)">
+            <use href="#speakerIcon"/>
             <path d="M 10.5,16
-                     m 4,4
-                     a 6,6 0 0,0 0,-8
+                     m 3.64644660941,-3.64644660941
+                     a 5.5,5.5 0 0,1 0,7.29289321882
+                     a 0.5,0.5 0 1,0 0.70710678118,0.70710678118
+                     a 6.5,6.5 0 0,0 0,-8.70710678118
+                     a 0.5,0.5 0 1,0 -0.70710678118,0.70710678118
                      "/>
             <path d="M 10.5,16
-                     m 6,6
-                     a 9,9 0 0,0 0,-12
+                     m 5.64644660941,-5.64644660941
+                     a 8.5,8.5 0 0,1 0,11.29289321882
+                     a 0.5,0.5 0 1,0 0.70710678118,0.70710678118
+                     a 9.5,9.5 0 0,0 0,-12.70710678118
+                     a 0.5,0.5 0 1,0 -0.70710678118,0.70710678118
                      "/>
             <path d="M 10.5,16
-                     m 8,8
-                     a 12,12 0 0,0 0,-16
+                     m 7.64644660941,-7.64644660941
+                     a 11.5,11.5 0 0,1 0,15.29289321882
+                     a 0.5,0.5 0 1,0 0.70710678118,0.70710678118
+                     a 12.5,12.5 0 0,0 0,-16.70710678118
+                     a 0.5,0.5 0 1,0 -0.70710678118,0.70710678118
                      "/>
           </g>
         </g>
@@ -578,9 +730,35 @@
       <!-- F13 -->
       <g transform="translate( 867.2, 40.5)">
         <g class="fnIconScale">
-          <g id="eject" class="mediaIcon">
-            <path d="M 12,10 l 6,6 l -12,0 z"/>
-            <rect x="6" y="19" width="12" height="2"/>
+          <g id="eject" class="mediaIcon" transform="translate(-1.5,0)">
+            <path d="M 12,10
+                     m 0.35355339059,-0.35355339059
+                     a 0.5,0.5 0 0,0 -0.70710678118,0
+                     L 5.64644660941,15.6464466094
+                     A 0.5,0.5 0 0,0 6,16.5
+                     L 18,16.5
+                     A 0.5,0.5 0 0,0 18.3535533906,15.6464466094
+                     z
+                     M 7.41421356237,15.5
+                     L 12,10.70710678118
+                     L 16.5857864376,15.5"/>
+            <path d="M 6,19
+                     m 0,-0.5
+                     a 0.5,0.5 0 0,0 -0.5,0.5
+                     l 0,2
+                     a 0.5,0.5 0 0,0 0.5,0.5
+                     l 12,0
+                     a 0.5,0.5 0 0,0 0.5,-0.5
+                     l 0,-2
+                     a 0.5,0.5 0 0,0 -0.5,-0.5
+                     z
+                     M 6,19
+                     m 0.5,0.5
+                     l 11,0
+                     l 0,1
+                     l -11,0
+                     z
+                     "/>
           </g>
         </g>
         <text class="fn">F13</text>
