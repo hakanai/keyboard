@@ -103,13 +103,6 @@
     }
 
     .mediaIcon {
-      fill: none;
-      stroke: lightGray;
-      stroke-width: 1;
-      stroke-linecap: round;
-      stroke-linejoin: round;
-    }
-    .mediaIcon {
       fill: black;
       stroke: none;
     }
