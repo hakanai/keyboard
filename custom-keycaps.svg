@@ -414,13 +414,13 @@
                      l 1,0
                      a 0.75,0.75 0 1,0 0,-1.5
                      z"/>
-            <use href="#brightnessDownSpoke" transform="rotate(45,16,16)"/>
-            <use href="#brightnessDownSpoke" transform="rotate(90,16,16)"/>
-            <use href="#brightnessDownSpoke" transform="rotate(135,16,16)"/>
-            <use href="#brightnessDownSpoke" transform="rotate(180,16,16)"/>
-            <use href="#brightnessDownSpoke" transform="rotate(225,16,16)"/>
-            <use href="#brightnessDownSpoke" transform="rotate(270,16,16)"/>
-            <use href="#brightnessDownSpoke" transform="rotate(315,16,16)"/>
+            <use xlink:href="#brightnessDownSpoke" transform="rotate(45,16,16)"/>
+            <use xlink:href="#brightnessDownSpoke" transform="rotate(90,16,16)"/>
+            <use xlink:href="#brightnessDownSpoke" transform="rotate(135,16,16)"/>
+            <use xlink:href="#brightnessDownSpoke" transform="rotate(180,16,16)"/>
+            <use xlink:href="#brightnessDownSpoke" transform="rotate(225,16,16)"/>
+            <use xlink:href="#brightnessDownSpoke" transform="rotate(270,16,16)"/>
+            <use xlink:href="#brightnessDownSpoke" transform="rotate(315,16,16)"/>
           </g>
         </g>
 
@@ -445,13 +445,13 @@
                      l 3,0
                      a 0.75,0.75 0 1,0 0,-1.5
                      z"/>
-            <use href="#brightnessUpSpoke" transform="rotate(45,16,16)"/>
-            <use href="#brightnessUpSpoke" transform="rotate(90,16,16)"/>
-            <use href="#brightnessUpSpoke" transform="rotate(135,16,16)"/>
-            <use href="#brightnessUpSpoke" transform="rotate(180,16,16)"/>
-            <use href="#brightnessUpSpoke" transform="rotate(225,16,16)"/>
-            <use href="#brightnessUpSpoke" transform="rotate(270,16,16)"/>
-            <use href="#brightnessUpSpoke" transform="rotate(315,16,16)"/>
+            <use xlink:href="#brightnessUpSpoke" transform="rotate(45,16,16)"/>
+            <use xlink:href="#brightnessUpSpoke" transform="rotate(90,16,16)"/>
+            <use xlink:href="#brightnessUpSpoke" transform="rotate(135,16,16)"/>
+            <use xlink:href="#brightnessUpSpoke" transform="rotate(180,16,16)"/>
+            <use xlink:href="#brightnessUpSpoke" transform="rotate(225,16,16)"/>
+            <use xlink:href="#brightnessUpSpoke" transform="rotate(270,16,16)"/>
+            <use xlink:href="#brightnessUpSpoke" transform="rotate(315,16,16)"/>
           </g>
         </g>
         <text class="fn">F2</text>
@@ -534,11 +534,11 @@
                      l -4,0
                      z
                      "/>
-            <use href="#launchpadRect" transform="translate(8,0)"/>
-            <use href="#launchpadRect" transform="translate(16,0)"/>
-            <use href="#launchpadRect" transform="translate(0,8)"/>
-            <use href="#launchpadRect" transform="translate(8,8)"/>
-            <use href="#launchpadRect" transform="translate(16,8)"/>
+            <use xlink:href="#launchpadRect" transform="translate(8,0)"/>
+            <use xlink:href="#launchpadRect" transform="translate(16,0)"/>
+            <use xlink:href="#launchpadRect" transform="translate(0,8)"/>
+            <use xlink:href="#launchpadRect" transform="translate(8,8)"/>
+            <use xlink:href="#launchpadRect" transform="translate(16,8)"/>
           </g>
         </g>
         <text class="fn">F4</text>
@@ -560,10 +560,10 @@
                      l 0,1
                      a 0.75,0.75 0 1,0 1.5,0
                      z"/>
-            <use href="#keyboardLightingDownSpoke" transform="rotate(40,16,22)"/>
-            <use href="#keyboardLightingDownSpoke" transform="rotate(-40,16,22)"/>
-            <use href="#keyboardLightingDownSpoke" transform="rotate(80,16,22)"/>
-            <use href="#keyboardLightingDownSpoke" transform="rotate(-80,16,22)"/>
+            <use xlink:href="#keyboardLightingDownSpoke" transform="rotate(40,16,22)"/>
+            <use xlink:href="#keyboardLightingDownSpoke" transform="rotate(-40,16,22)"/>
+            <use xlink:href="#keyboardLightingDownSpoke" transform="rotate(80,16,22)"/>
+            <use xlink:href="#keyboardLightingDownSpoke" transform="rotate(-80,16,22)"/>
           </g>
         </g>
         <text class="fn">F5</text>
@@ -585,10 +585,10 @@
                      l 0,3
                      a 0.75,0.75 0 1,0 1.5,0
                      z"/>
-            <use href="#keyboardLightingUpSpoke" transform="rotate(40,16,22)"/>
-            <use href="#keyboardLightingUpSpoke" transform="rotate(-40,16,22)"/>
-            <use href="#keyboardLightingUpSpoke" transform="rotate(80,16,22)"/>
-            <use href="#keyboardLightingUpSpoke" transform="rotate(-80,16,22)"/>
+            <use xlink:href="#keyboardLightingUpSpoke" transform="rotate(40,16,22)"/>
+            <use xlink:href="#keyboardLightingUpSpoke" transform="rotate(-40,16,22)"/>
+            <use xlink:href="#keyboardLightingUpSpoke" transform="rotate(80,16,22)"/>
+            <use xlink:href="#keyboardLightingUpSpoke" transform="rotate(-80,16,22)"/>
           </g>
         </g>
         <text class="fn">F6</text>
@@ -610,7 +610,7 @@
                      L 12.23623738417,16
                      L 6.0,19.75277674973
                      z"/>
-            <use href="#playIcon" transform="translate(9,0)"/>
+            <use xlink:href="#playIcon" transform="translate(9,0)"/>
           </g>
         </g>
         <text class="fn">F7</text>
@@ -619,7 +619,7 @@
       <g transform="translate( 464.3, 40.5)">
         <g class="fnIconScale">
           <g id="playPause" class="mediaIcon" transform="translate(-1,0)">
-            <use href="#playIcon"/>
+            <use xlink:href="#playIcon"/>
             <path id="pauseBar"
                   d="M 0,-4.33012701892
                      m 0.5,0
@@ -627,7 +627,7 @@
                      l 0,8.66025403784
                      a 0.5,0.5 0 1,0 1,0
                      z" transform="translate(17,16)"/>
-            <use href="#pauseBar" transform="translate(4,0)"/>
+            <use xlink:href="#pauseBar" transform="translate(4,0)"/>
           </g>
         </g>
         <text class="fn">F8</text>
@@ -636,8 +636,8 @@
       <g transform="translate( 515.7, 40.5)">
         <g class="fnIconScale">
           <g id="fastForward" class="mediaIcon" transform="translate(-0.5,0)">
-            <use href="#playIcon" transform="translate(26.5,0) scale(-1,1)"/>
-            <use href="#playIcon" transform="translate(26.5,0) scale(-1,1) translate(9,0)"/>
+            <use xlink:href="#playIcon" transform="translate(26.5,0) scale(-1,1)"/>
+            <use xlink:href="#playIcon" transform="translate(26.5,0) scale(-1,1) translate(9,0)"/>
           </g>
         </g>
         <text class="fn">F9</text>
@@ -678,7 +678,7 @@
       <g transform="translate( 617.6, 40.5)">
         <g class="fnIconScale">
           <g id="volumeDown" class="mediaIcon" transform="translate(-0.5,0)">
-            <use href="#speakerIcon"/>
+            <use xlink:href="#speakerIcon"/>
             <path d="M 10.5,16
                      m 3.64644660941,-3.64644660941
                      a 5.5,5.5 0 0,1 0,7.29289321882
@@ -694,7 +694,7 @@
       <g transform="translate( 669.7, 40.5)">
         <g class="fnIconScale">
           <g id="volumeDown" class="mediaIcon" transform="translate(-0.5,0)">
-            <use href="#speakerIcon"/>
+            <use xlink:href="#speakerIcon"/>
             <path d="M 10.5,16
                      m 3.64644660941,-3.64644660941
                      a 5.5,5.5 0 0,1 0,7.29289321882
