@@ -1,5 +1,9 @@
 
-all: custom-keycaps-phantomjs.png custom-keycaps-phantomjs.pdf custom-keycaps-svgexport.png custom-keycaps-batik.png
+all: custom-keycaps-phantomjs.png \
+     custom-keycaps-phantomjs.pdf \
+     custom-keycaps-svgexport.png \
+     custom-keycaps-batik.png \
+     custom-keycaps-rsvg.png
 
 custom-keycaps-phantomjs.png: custom-keycaps.svg
 	phantomjs rasterise.js $< $@ "1920px"
@@ -12,4 +16,7 @@ custom-keycaps-svgexport.png: custom-keycaps.svg
 
 custom-keycaps-batik.png: custom-keycaps.svg
 	batik-rasterizer -d $@ -w 1920 $<
+
+custom-keycaps-rsvg.png: custom-keycaps.svg
+	rsvg-convert -w 1920 $< > $@
 
